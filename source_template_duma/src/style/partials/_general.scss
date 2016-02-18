@@ -1,0 +1,97 @@
+/* ------------------------------------------------------------------
+General Styles
+------------------------------------------------------------------ */
+html {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -ms-overflow-style: scrollbar;
+}
+body {
+  background: #fff;
+  font: 400 12px/1.8 "Open Sans", sans-serif;
+  color: #666;
+  -webkit-font-smoothing: antialiased;
+  -ms-overflow-style: scrollbar;
+  position: relative;
+  &.no-mobile{
+    //min-width: 768px;
+  }
+  &.mobile{
+  
+    overflow-x: hidden;
+  }
+  
+  
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+iframe {
+  border: 0;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left !important;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.leftauto {
+  right: 0 !important;
+  left: auto !important;
+}
+
+/* Selection */
+
+::-moz-selection {
+  background:#000;
+  color: #fff;
+}
+
+::-webkit-selection{
+  background:#000;
+  color: #fff;
+}
+
+::selection{
+  background:#000;
+  color: #fff;
+}
+.mobile * {
+  -webkit-backface-visibility: hidden;
+}
+div{
+  -webkit-user-select: none;
+   -moz-user-select: none;
+   user-select: none;
+}
+
+/* Transition elsements */
+
+.form-control {
+  -webkit-transition: all 0.4s ease-in-out 0s;
+     -moz-transition: all 0.4s ease-in-out 0s;
+    -ms-transition: all 0.4s ease-in-out 0s;
+     -o-transition: all 0.4s ease-in-out 0s;
+      transition: all 0.4s ease-in-out 0s;
+}
+
+a,
+.btn {
+  -webkit-transition: all 0.125s ease-in-out 0s;
+     -moz-transition: all 0.125s ease-in-out 0s;
+    -ms-transition: all 0.125s ease-in-out 0s;
+     -o-transition: all 0.125s ease-in-out 0s;
+      transition: all 0.125s ease-in-out 0s;
+}

@@ -1,0 +1,81 @@
+@import '_custom_var';
+
+
+@import "bower_components/components-font-awesome/scss/font-awesome";
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,300,300italic,600,800,800italic&subset=latin,cyrillic);
+
+
+/*!
+ * Bootstrap v3.3.6 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// Core variables and mixins
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+
+// Reset and dependencies
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/normalize";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/print";
+
+// Core CSS
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/type";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/code";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/grid";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/tables";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/forms";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/buttons";
+
+// Components
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/component-animations";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/dropdowns";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/button-groups";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/input-groups";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/navs";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/navbar";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/breadcrumbs";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/pagination";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/pager";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/labels";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/badges";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/jumbotron";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/thumbnails";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/alerts";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/progress-bars";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/media";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/list-group";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/panels";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/responsive-embed";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/wells";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/close";
+
+// Components w/ JavaScript
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/modals";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/tooltip";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/popovers";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/carousel";
+
+// Utility classes
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
+
+@import "sprite";
+
+@import "partials/open-sans";
+@import "partials/_general";
+@import "partials/_loader";
+@import "partials/_module";
+@import "partials/_buttons";
+@import "partials/_wizard";
+@import "partials/_social";
+@import "partials/module-custom";
+@import "partials/_typography";
+@import "partials/_paginator";
+@import "partials/_quest_answer";
+@import "partials/_add_components";
+@import "partials/_card"; 
+@import "partials/_scr_mob_ver";
+//@import "partials/test3";

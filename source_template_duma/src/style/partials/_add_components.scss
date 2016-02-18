@@ -1,0 +1,103 @@
+.right-custom {
+    float: right;
+    @media (max-width: $screen-xs-max) {
+        float: none;
+    }
+}
+
+.custom-pd {
+    @media (max-width: $screen-xs-max) {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+.mt-30 {
+    margin-top: 30px !important;
+    @media (max-width: $screen-xs-max) {
+        margin-top: 10px !important;
+    }
+}
+.mt-50{
+    margin-top: 50px;
+}
+
+.warning-duma {
+    margin-right: 15px;
+    border: 1px dashed #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    .warning-duma__text {
+        display: inline-block;
+        margin-left: 24px;
+    }
+    @media (max-width: $screen-xs-max) {
+        margin-right: 15px;
+        margin-left: 15px;
+        text-align: center;
+    }
+}
+
+.countdown-time {
+    background: url('../images/test/timer.png') no-repeat center;
+    background-size: contain;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    padding-top: 6px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    @media (max-width: $screen-xs-max) {
+        font-size: 17px;
+        margin-top: 1px;
+    }
+}
+
+.ml-12 {
+    margin-left: 12px;
+}
+
+.mt-130 {
+    margin-top: 130px;
+}
+
+.fix-b-bg {
+    background-image: url('../images/test/back-test.jpg');
+    background-size: cover;
+}
+.fix-bg-text {
+    background: url('../images/test2/back-title.png') no-repeat center;
+    background-size: contain;
+    padding: 2px 7px;
+    @media (max-width: 767px) {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    @media (min-width: $screen-xs-max) and (max-width: $screen-sm-max){
+        font-size: 33px;
+    }
+}
+
+
+.mr-t-70 {
+    margin-top: 70px;
+}
+.mt-300 {
+    margin-top: 300px;
+}
+
+
+
+
+
+.module-step{
+    display: none;
+}
+.quiz-duma-step{
+    display: none;
+}

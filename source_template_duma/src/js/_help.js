@@ -1,0 +1,5 @@
+var help = {
+	init:function(){
+	
+  }
+};

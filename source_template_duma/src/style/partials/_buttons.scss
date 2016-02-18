@@ -1,0 +1,36 @@
+.btn-border-white {
+    @include button-variant(#FFFFFF, transparent, #FFFFFF);
+    color: #FFFFFF!important;
+    border-radius: 0px;
+    border-width: 2px;
+    cursor: pointer;
+    padding: 12px 70px 11px 74px;
+    font-size: 23px;
+    display: inline-block;
+    margin-top: 13px;
+    &.disabled {
+        @include button-variant(darken(#FFFFFF, 10%), #FFFFFF, #FFFFFF);
+    }
+    &.btn--correct {
+        border: 2px solid #191919;
+        span {
+            color: #191919 !important;
+        }
+    }
+    &.btn--no-correct {
+        border: 2px dashed #4f2e33;
+        span {
+            color: #4f2e33 !important;
+        }
+    }
+}
+.bnt__new-test{
+    a{
+        color: #fff;
+        text-decoration: none;
+        &:hover{
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}

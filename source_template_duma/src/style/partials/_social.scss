@@ -1,0 +1,28 @@
+.social-btn{
+  width: 50px;
+  height: 50px;
+  display: block;
+  background: #000;
+}
+.social-icons li{
+	    list-style: none;
+}
+.social-icons li span {
+    display: block;
+    cursor: pointer;
+    margin: 5px;
+
+}
+.social-btn{
+    font-size: 27px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding-right: 14px;  
+    padding-top: 0px;
+    background-color: white;
+    color: #000;
+    
+}
+.social-btn--vk{
+	padding-right: 11px;
+}
