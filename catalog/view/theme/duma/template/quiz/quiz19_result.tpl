@@ -46,27 +46,30 @@
             <div class="col-xs-12  center-block text-center ">
               <span class="module__title-testsubtext open-sans-lite ">Ответь на вопросы по истории госдумы и узнай, можешь ли ты стать достойным героем своего дистрикта!</span>
             </div>
-          </div>
-<div class="col-sm-12 col-md-2 text-right">
-            <ul class="social-icons m-t-0">
-              <li><span class="vk-icon social-btn" onclick="yaCounter31626893.reachGoal('<?php echo $share_btn_vk; ?>'); return true;" data-network="vk" data-purl="<?php echo $share_url_vk;?>" data-title='<?php echo $share_title; ?>' data-img="<?php echo $share_image;?>" data-text="<?php echo $share_text; ?>"></span></li>
-              <li><span class="facebook-icon social-btn" onclick="yaCounter31626893.reachGoal('<?php echo $share_btn_fb; ?>'); return true;" data-network="facebook" data-purl="<?php echo $share_url_fb;?>" data-title='<?php echo $share_title; ?>' data-img="<?php echo $share_image;?>" data-text="<?php echo $share_text; ?>"></span></li>
-              <li><span class="ok-icon social-btn" onclick="yaCounter31626893.reachGoal('<?php echo $share_btn_ok; ?>'); return true;" data-network="ok" data-purl="<?php echo $share_url_ok;?>" data-title='<?php echo $share_title; ?>' data-img="<?php echo $share_image;?>" data-text="<?php echo $share_text; ?>"></span></li>
-            </ul>
-          </div>
-          
-                <div class="col-sm-12 col-md-10 text-center">
+          </div>  
+
+<div class=" col-xs-12 col-sm-10 col-md-8 col-md-offset-1 text-center mt-30">
             <img src="<?php echo $share_image; ?>" alt='<?php echo $share_title; ?>'>
-          </div>    
+ </div>  
 
+<div class=" col-xs-12 col-sm-2 col-md-2 text-right mt-30">
+            <ul class="social-icons m-t-0">
+              <li><span class=" social-btn social-btn--vk" onclick="yaCounter31626893.reachGoal('<?php echo $share_btn_vk; ?>'); return true;" data-network="vk" data-purl="<?php echo $share_url_vk;?>" data-title='<?php echo $share_title; ?>' data-img="<?php echo $share_image;?>" data-text="<?php echo $share_text; ?>"> <i class="fa fa-vk"></i></span></li>
+              <li><span class=" social-btn" onclick="yaCounter31626893.reachGoal('<?php echo $share_btn_fb; ?>'); return true;" data-network="facebook" data-purl="<?php echo $share_url_fb;?>" data-title='<?php echo $share_title; ?>' data-img="<?php echo $share_image;?>" data-text="<?php echo $share_text; ?>"><i class="fa fa-facebook"></i></span></li>
 
+              <li><span class=" social-btn" onclick="yaCounter31626893.reachGoal('<?php echo $share_btn_ok; ?>'); return true;" data-network="ok" data-purl="<?php echo $share_url_ok;?>" data-title='<?php echo $share_title; ?>' data-img="<?php echo $share_image;?>" data-text="<?php echo $share_text; ?>"><i class="fa fa-odnoklassniki"></i></span></li>
+            </ul>
+</div>
           
+                  
+
+<div class="row">  
+      <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-3 mt-50"> 
+              <button class="bnt btn-block btn-border-white open-sans-regular bnt__new-test" ><a href= "/ "> на главную </a> </button>
+      </div>
+   </div>
           
-                      
-
-
-
-
+   
 
           <div class="row">
               <div class="col-xs-12 col-sm-5 col-sm-offset-7 col-md-4 col-md-offset-8 col-lg-3 col-lg-offset-9 ">
@@ -75,13 +78,6 @@
               </div>
               </div>
           </div>
-
-
-
-
-
-
-                   
 
 
                 </div>

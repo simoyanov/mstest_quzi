@@ -12425,7 +12425,7 @@ var MOUSE_DOWN = "click";
 
 var time = 500;
 
-var min_window_h = 650;
+var min_window_h = 1100;
 var modules = $('.module '),
     windowWidth = Math.max($(window).width(), window.innerWidth);
 
@@ -12453,7 +12453,7 @@ var visual = {
 
     },
     scrolling: function() {
-    
+ 
     },
     resize: function() {
         visual.moduleResize();

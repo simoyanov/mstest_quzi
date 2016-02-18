@@ -3,6 +3,7 @@ var $_result_form = $('#poll-form'),
 	$_li_pagination = $('.pagination li');
 	$_wizard_answer_btn = $('.wizard-btn-answer');
 	$_wizard_next_btn = $('.wizard-btn-next-step');
+	var count_steps_of_wizard = 6;
 //для блокировки постоянного нажатия и отправки ajax
 var _send = true;
 var whatmuscovite = {
@@ -32,7 +33,7 @@ var whatmuscovite = {
 	        }else{
 	        	$('#pstep_'+step).attr('class', '').removeClass('active').addClass('no-correct');
 	        }
-	        
+	        whatmuscovite.showNextStep(step);
       	});
 
       	$_wizard_next_btn.on( MOUSE_DOWN, function(e){
@@ -105,7 +106,7 @@ var whatmuscovite = {
 	sendResult:function(){
 	    var data = $('#poll-form').serializeArray(); 
 	    console.log(data);
-	    yaCounter31626893.reachGoal(rbtn_share);
+	    // yaCounter31626893.reachGoal(rbtn_share);
 	    var url = '/send_result_quiz'
 	       $.ajax({
 	          url: url,

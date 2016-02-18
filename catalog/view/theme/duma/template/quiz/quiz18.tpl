@@ -1,4 +1,4 @@
- <section class="module " data-background="image/catalog/test_bg.jpg">
+ <section class="module module--full-height" data-background="image/catalog/test_bg.jpg">
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-12  col-md-12  col-lg-12 module module__border module__border--white">

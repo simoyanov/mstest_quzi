@@ -8807,7 +8807,7 @@ Modules
   text-transform: uppercase;
   border: 1px solid #fff;
   width: 300px;
-  height: 92px;
+  min-height: 120px;
   display: inline-table;
   letter-spacing: 2px;
   color: #fff;
@@ -8825,9 +8825,11 @@ Modules
       margin-left: auto;
       margin-right: auto; } }
 
-@media (min-width: 767px) and (max-width: 991px) {
-  .fix-quest {
-    font-size: 19px; } }
+.fix-quest {
+  font-size: 22px; }
+  @media (min-width: 767px) and (max-width: 991px) {
+    .fix-quest {
+      font-size: 19px; } }
 
 .right-custom {
   float: right; }

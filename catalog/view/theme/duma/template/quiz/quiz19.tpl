@@ -1,4 +1,4 @@
-<section class="module " data-background="image/catalog/test_bg.jpg">
+<section class="module module--full-height" data-background="image/catalog/test_bg.jpg">
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-12  col-md-12  col-lg-12 module module__border module__border--white">
@@ -38,7 +38,7 @@
 
             <div class="module-question">
               <div class="row">
-                <div class="col-xs-12  center-block text-center ">
+                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2   text-center ">
                   <div class="module__quest open-sans-exboltit mr-t-70 fix-quest">
                     <?php echo $step['title']; ?>
                   </div>
@@ -51,7 +51,7 @@
                 <div class="center-block text-center">
                 <?php $j=1; ?>
                 <?php foreach ($step['ar_questions'] as $question) { ?>
-                  <div class="btn module__answer-choice2 open-sans-regular"
+                  <div class="btn module__answer-choice2 open-sans-regular wizard-btn-answer"
                     data-step="<?php echo $i; ?>"
                     data-question="<?php echo $step['qitem_id']; ?>"
                     data-answer="<?php echo $question['question_id']; ?>"
@@ -69,6 +69,11 @@
           <?php $i++; ?>
           <?php } ?>
         </div>
+
+
+    
+
+
 
         <div class="row">
           <div class="col-xs-12 col-sm-5 col-sm-offset-7 col-md-4 col-md-offset-8 col-lg-3 col-lg-offset-9 ">
