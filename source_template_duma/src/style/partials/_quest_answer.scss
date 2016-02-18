@@ -9,8 +9,6 @@
     }
 }
 
-
-
 .module__answer {
     font-size: 15px;
     margin-top: 19px;
@@ -97,12 +95,16 @@ display: inline;
     margin-left: 4px;
     margin-right: 12px;
     cursor: pointer;
+    border-radius: 0px !important;
+    
     @media (max-width: $screen-xs-max) {
     width: 95%;
     margin-top: 10px;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
+    
+
     }
 }
 

@@ -7569,12 +7569,16 @@ Modules
     .btn-border-white.btn--no-correct span {
       color: #4f2e33 !important; }
 
-.bnt__new-test a {
-  color: #fff;
-  text-decoration: none; }
-  .bnt__new-test a:hover {
+.bnt__new-test {
+  text-transform: uppercase;
+  border-width: 0px;
+  border: 1px solid #fff; }
+  .bnt__new-test a {
     color: #fff;
     text-decoration: none; }
+    .bnt__new-test a:hover {
+      color: #fff;
+      text-decoration: none; }
 
 .wizard-next .module__paginator--wizard {
   margin-top: 57px; }
@@ -8816,7 +8820,8 @@ Modules
   margin-top: 38px;
   margin-left: 4px;
   margin-right: 12px;
-  cursor: pointer; }
+  cursor: pointer;
+  border-radius: 0px !important; }
   @media (max-width: 767px) {
     .module__answer-choice2 {
       width: 95%;
@@ -8917,6 +8922,9 @@ Modules
 
 .quiz-duma-step {
   display: none; }
+
+.module__border--min {
+  min-height: 850px; }
 
 .module__card {
   margin-top: 10px;

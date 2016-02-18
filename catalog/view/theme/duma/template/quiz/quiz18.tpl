@@ -1,7 +1,7 @@
  <section class="module module--full-height" data-background="image/catalog/test_bg.jpg">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-sm-12  col-md-12  col-lg-12 module module__border module__border--white">
+      <div class="col-xs-12 col-sm-12  col-md-12  col-lg-12 module module__border module__border--white module__border--min">
         <div class="row">
             <div class="col-xs-4 col-sm-1 col-md-1 col-lg-1 module__logo">
               <a href="/index.html"><img src="assets/images/logo.png" alt="Дума 2016" class="module__logo-image" ></a>

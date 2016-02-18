@@ -41,6 +41,12 @@
         text-align: center;
     }
 }
+// .warning-duma--fix_bottom{
+//   position: absolute;
+//   bottom: 50px;
+//   right: 15px;
+// }
+
 
 .countdown-time {
     background: url('../images/test/timer.png') no-repeat center;
@@ -92,12 +98,13 @@
 }
 
 
-
-
-
 .module-step{
     display: none;
 }
 .quiz-duma-step{
     display: none;
+}
+
+.module__border--min{
+    min-height: 850px;
 }

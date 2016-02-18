@@ -1,7 +1,7 @@
 <section class="module module--full-height" data-background="image/catalog/test_bg.jpg">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-sm-12  col-md-12  col-lg-12 module module__border module__border--white">
+      <div class="col-xs-12 col-sm-12  col-md-12  col-lg-12 module module__border module__border--white module__border--min">
         <div class="row">
           <div class="col-xs-4 col-sm-1 col-md-1 col-lg-1 module__logo">
             <a href="/index.html"><img src="assets/images/logo.png" alt="Дума 2016" class="module__logo-image" ></a>
@@ -51,7 +51,7 @@
                 <div class="center-block text-center">
                 <?php $j=1; ?>
                 <?php foreach ($step['ar_questions'] as $question) { ?>
-                  <div class="btn module__answer-choice2 open-sans-regular wizard-btn-answer"
+                  <div class="btn open-sans-lite  wizard-btn-answer module__answer-choice2 "
                     data-step="<?php echo $i; ?>"
                     data-question="<?php echo $step['qitem_id']; ?>"
                     data-answer="<?php echo $question['question_id']; ?>"
@@ -77,7 +77,7 @@
 
         <div class="row">
           <div class="col-xs-12 col-sm-5 col-sm-offset-7 col-md-4 col-md-offset-8 col-lg-3 col-lg-offset-9 ">
-            <div class="warning-duma  mt-130 ">
+            <div class="warning-duma  mt-130 warning-duma--fix_bottom">
               <!-- /*mt-130 убрать если нет таймера*/ -->
               <div class="icon-hand ml-12"></div><span class="warning-duma__text open-sans-lite text-center">информбюро думы <br>предупреждает!</span>
             </div>

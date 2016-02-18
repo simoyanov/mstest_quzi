@@ -72,6 +72,7 @@ var whatmuscovite = {
 			.delay(100)
 			.transition({'opacity':1,x: '0px'},250,function(){
 				$(this).addClass('current')
+				$('.warning-duma').show(200);
 			},'easeInOutBack');
 
 		$_li_pagination
@@ -85,12 +86,14 @@ var whatmuscovite = {
 		if (_step = count_steps_of_wizard) {
 			$('#step_'+_step).find('.wizard-btn-next-step').html('Получить результат');
 		}
+
 	},
 	showNextStep:function(_step){
 		if (_step+1 > count_steps_of_wizard) {
 	        _send = false;
 	        whatmuscovite.endWizard();
       	}else{
+      		$('.warning-duma').hide(200);
       		$('#step_'+_step)
 				.transition({'opacity':0, x: '500px'},250,function(){
 					$(this).addClass('hidden');
@@ -100,6 +103,7 @@ var whatmuscovite = {
       	}
 	},
 	endWizard:function(){
+		$('.warning-duma').hide(100);
 		console.log('Опрос завершен');
     	whatmuscovite.sendResult();
 	},
