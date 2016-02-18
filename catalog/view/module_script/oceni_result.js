@@ -1,4 +1,4 @@
-$(function() {
+
     var excellent = $('#excellent');
     var well = $('#well');
     var bad = $('#bad');
@@ -7,8 +7,8 @@ $(function() {
     var connectClass = '.module-connect';
     var addClass = 'module__card-inbox';
     var btnsol = $('#solution');
-
-
+   
+$(function() {
     boxid.sortable({
         connectWith: connectClass,
         receive: function(event, ui) {
@@ -64,7 +64,7 @@ $(function() {
         var list = boxid.sortable("toArray");
         if (list.length == 0) {
             btnsol.removeClass('hidden');
-            showResult();
+            
         }
     }
 
@@ -74,7 +74,7 @@ $(function() {
     //  
     // 
 });
-
+ 
 
 if (mobile === true) {
     $('#help_scr').removeClass('hidden');
@@ -189,7 +189,7 @@ function addhovertocard(idcard, name_part, attr_part) {
     $(sob).find('.module__card').append("<div class='choice_cart' part=" + attr_part + "><div class='choice_cart-name open-sans-exboltit'>" + name_part + "</div><div class='choice_cart__bnt_cansel open-sans-exboltit'>отменить</div></div>");
     if (endSolution() === true) {
         $('#part_scr_solutio').addClass('hover_scr_on_mob-left-on');
-        showResult();
+        
     }
 }
 
@@ -273,10 +273,7 @@ function getidInPart(nomer_part) {
  var  part_ldpr_score_mob    = $('#ldpr_score_mob');
  var  part_kprf_score_mob    = $('#kprf_score_mob');
  var  part_sp_ros_score_mob  = $('#sp_ros_score_mob');
-
-
-
-
+  
 
 
  var  edr_ros_sc = 40000;
@@ -284,6 +281,7 @@ function getidInPart(nomer_part) {
  var  kprf_sc    = 10000;
  var  sp_ros_sc  = 10000;
 
+ var  mob_sol_bnt = $('#solut_mob');
 
 function showResult(){
      $('#allScore').addClass('hidden');
@@ -310,4 +308,10 @@ part_sp_ros_score_mob.fadeIn(1000).html('Сраведливая россия<br>
 
 }
 
+btnsol.on(MOUSE_CLICK, function() {
+    showResult();
+});
 
+mob_sol_bnt.on(MOUSE_CLICK, function() {
+    showResult();
+});

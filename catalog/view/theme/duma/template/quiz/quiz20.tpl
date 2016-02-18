@@ -152,7 +152,7 @@
                     </div>
                     <div class="row">
                         <div class="col-xs-12  center-block text-center">
-                            <a id="solution" href="#" class="btn_solution open-sans-exbolt hidden">Принять решение</a>
+                            <a id="solution" class="btn_solution open-sans-exbolt hidden">Принять решение</a>
                         </div>
                     </div>
       
