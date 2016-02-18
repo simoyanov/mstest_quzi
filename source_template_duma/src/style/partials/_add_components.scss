@@ -21,7 +21,9 @@
 .mt-50{
     margin-top: 50px;
 }
-
+.mt-10{
+    margin-top: 10px !important;
+}
 .warning-duma {
     margin-right: 15px;
     border: 1px dashed #fff;
@@ -107,4 +109,8 @@
 
 .module__border--min{
     min-height: 850px;
+        margin-bottom: 150px;
+        @media (max-width: $screen-xs-max) {
+       margin-bottom: 0px;
+    }
 }
