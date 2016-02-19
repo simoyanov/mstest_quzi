@@ -7838,7 +7838,8 @@ Modules
   visibility: hidden;
   opacity: 0;
   -webkit-transition: all 2s;
-  transition: all 2s; }
+  transition: all 2s;
+  z-index: 99; }
 
 #procent:after {
   display: block;
@@ -7853,7 +7854,8 @@ Modules
   transform: translateX(-220px);
   -webkit-transition: all 1s;
   transition: all 1s;
-  opacity: 1; }
+  opacity: 1;
+  z-index: 99; }
 
 .menu_smal {
   position: absolute;
@@ -7865,7 +7867,8 @@ Modules
   visibility: hidden;
   opacity: 0;
   -webkit-transition: all 2s;
-  transition: all 2s; }
+  transition: all 2s;
+  z-index: 99; }
 
 .menu-open-smal {
   visibility: visible;

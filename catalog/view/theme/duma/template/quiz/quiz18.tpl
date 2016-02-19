@@ -12,7 +12,7 @@
             </div>
             <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
                 <div class="module__burger" id="my-button">
-                    <a href="#" ><img src="assets/images/burger_1.png" alt=""></a>
+                    <a ><img src="assets/images/burger_1.png" alt=""></a>
                 </div>
             </div>
         </div>
