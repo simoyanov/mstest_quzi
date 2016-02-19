@@ -14,9 +14,13 @@
         overflow: hidden;
     }
     &__logo {
-        margin-left: 20px;
+//        margin-left: 20px;
         margin-top: 15px;
-        width: 85px;
+//        width: 85px;
+        img{
+            margin-left: 20px;
+            width: 85px;
+        }
     }
     &__top_text {
         margin-top: 12px;
@@ -80,6 +84,8 @@
         margin-top: 240px;
         li {
             margin-bottom: 4px;
+            text-align: right;
+            margin-right: 5px;
         }
         li:hover {
             text-decoration: line-through;
@@ -335,7 +341,7 @@
 
 .modile__infoDep {
     position: absolute;
-    margin-top: 15px;
+    margin-top: 145px;
 }
 
 .fix-place.module__infoDep-place {
@@ -351,7 +357,7 @@
     span {
         display: block;
         font-size: 46px;
-        padding: 16px;
+        padding: 6px;
         padding-left: 23px;
         color: #fff;
     }
@@ -423,7 +429,12 @@
     height: 172px;
     top: 64px;
     left: -30px;
-    background: url('../images/diline.png');
+//    background: url('../images/diline.png');
+    transition: all 0.3s;
+    img{
+        height: 100%;
+        width: 100%;
+    }
 }
 .modile__infoDep-line {
     background: url('../images/photo-line.png');
@@ -504,6 +515,7 @@
     background: url('../images/big-like-after.png');
     width: 32px;
     height: 28px;
+    display: none;
 }
 
 .modile__infoDep-like-but-after-small {
@@ -513,6 +525,7 @@
     background: url('../images/smal-like-after.png');
     width: 17px;
     height: 16px;
+    display: none;
 }
 
 .modile__infoDep-dislike-but {
@@ -537,6 +550,7 @@
     background: url('../images/big-dislike-after.png');
     width: 33px;
     height: 43px;
+    display: none;
 }
 
 .modile__infoDep-dislike-but-after-small {
@@ -546,6 +560,7 @@
     background: url('../images/small-dislike-after.png');
     width: 16px;
     height: 21px;
+    display: none;
 }
 
 .modile__infoDep-line2 {}
@@ -717,9 +732,16 @@
         }
     }
     .module__logo {
-        margin-left: 10px;
-        margin-top: 5px;
-        width: 70px;
+//        margin-left: 10px;
+//        margin-top: 5px;
+//        width: 70px;
+        //        margin-left: 20px;
+        margin-top: 15px;
+//        width: 85px;
+        img{
+            margin-left: 10px;
+            width: 50px;
+        }
     }
     .module__subtitle-subtext {
         font-size: 12px;
@@ -728,6 +750,7 @@
         margin-top: -200px;
         li {
             margin-bottom: 15px;
+            text-align: left;
         }
     }
     .modile__infoDep {
@@ -788,6 +811,13 @@
     .module__list-money {
         margin-top: 27px;
     }
+    .module__tringl_edros{
+        #procent{
+            right: 0px;
+            left: 180px;
+        }
+    }
+            
 }
 
 .module__tringl_edros:hover {
