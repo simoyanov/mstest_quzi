@@ -1,5 +1,7 @@
 window.onload = function () {
-    init();
+	if ( $("canvas").is("#canvas") === true) {
+		 init();
+}
 }
 
 function init(){
@@ -88,6 +90,10 @@ function initTriangleToy(onCompleteEvent, canvasid){
 		context.fillStyle = "rgba(255, 255, 255, " + bgObj.alpha + ")";		 
 		context.fill();		 
 		} 
+
+
+		
+	
 		requestAnimationFrame(render);	 
 	}	 
 	function Point(x,y, alpha){
