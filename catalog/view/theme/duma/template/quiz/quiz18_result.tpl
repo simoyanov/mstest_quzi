@@ -5,7 +5,7 @@
       <div class="col-xs-12 col-sm-12  col-md-12  col-lg-12 module module__border module__border--white">
         <div class="row">
             <div class="col-xs-4 col-sm-1 col-md-1 col-lg-1 module__logo">
-              <a href="/index.html"><img src="assets/images/logo.png" alt="Дума 2016" class="module__logo-image" ></a>
+              <a href="/"><img src="assets/images/logo.png" alt="Дума 2016" class="module__logo-image" ></a>
             </div>
             <div class=" col-xs-6 col-sm-5 col-sm-offset-4 col-md-5 col-md-offset-5 col-lg-4 col-lg-offset-6">
                 <span class="module__top_text open-sans-exboltit">567 340 <span>горят сердцами</span>
@@ -23,11 +23,11 @@
             <img src="assets/images/burger_2.png" alt="">
           </div>
             <ul class="menu__nav">
-              <li class="menu__nav-title open-sans-lite"><a href="/index.html">Главная</a></li>
+              <li class="menu__nav-title open-sans-lite"><a href="/">Главная</a></li>
               <li class="menu__nav-step  open-sans-regular">I Этап</li>
-              <li class="menu__nav-title open-sans-lite"><a href="/test1.html">3наток думы</a></li>
-              <li class="menu__nav-title open-sans-lite"><a href="/test2.html">Кресло депутата</a></li>
-              <li class="menu__nav-title open-sans-lite"><a href="/test3.html">Рейтинг партий</a></li>
+               <li class="menu__nav-title open-sans-lite"><a href="/quiz_znatok_duma">3наток думы</a></li>
+              <li class="menu__nav-title open-sans-lite"><a href="/quiz_kreslo_deputata">Кресло депутата</a></li>
+              <li class="menu__nav-title open-sans-lite"><a href="/quiz_oceni_zakon">Рейтинг партий</a></li>
               <li class="menu__nav-heros open-sans-lite"><a href="#heros">Герои</a></li>
               <li class="menu__nav-step  menu__nav-stepfix open-sans-regular">II Этап</li>
               <li class="menu__nav-title menu__nav-titlefix open-sans-lite">подпишись чтобы выжить</li>
