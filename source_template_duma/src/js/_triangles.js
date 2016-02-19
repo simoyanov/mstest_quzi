@@ -1,3 +1,7 @@
+window.onload = function () {
+    init();
+}
+
 function init(){
 
 	var toy = new initTriangleToy(complete, "canvas");

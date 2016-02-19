@@ -68,11 +68,12 @@ var path = {
                  'bower_components/jquery.transit/jquery.transit.js', 
 
                  'src/js/hoverable_and_touchable.js',
-                 'src/js/_canvastriangles.js',
+                 'src/js/_triangles.js',
                  'src/js/_visual.js',
                  'src/js/_social.js',
                  'src/js/_help.js',
                  'src/js/_common.js',
+                'src/js/_home.js',
                 
         ],//В стилях и скриптах нам понадобятся только main файлы
         style:   'src/style/styles.scss',

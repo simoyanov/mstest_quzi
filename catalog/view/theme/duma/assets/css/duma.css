@@ -7677,9 +7677,10 @@ Modules
     padding-left: 0px;
     overflow: hidden; }
   .module__logo {
-    margin-left: 20px;
-    margin-top: 15px;
-    width: 85px; }
+    margin-top: 15px; }
+    .module__logo img {
+      margin-left: 20px;
+      width: 85px; }
   .module__top_text {
     margin-top: 12px;
     font-size: 25px;
@@ -7733,7 +7734,9 @@ Modules
     padding-left: 90px;
     margin-top: 240px; }
     .module__list_party li {
-      margin-bottom: 4px; }
+      margin-bottom: 4px;
+      text-align: right;
+      margin-right: 5px; }
     .module__list_party li:hover {
       text-decoration: line-through;
       cursor: pointer; }
@@ -7946,7 +7949,7 @@ Modules
 
 .modile__infoDep {
   position: absolute;
-  margin-top: 15px; }
+  margin-top: 145px; }
 
 .fix-place.module__infoDep-place {
   margin-left: 0; }
@@ -7960,7 +7963,7 @@ Modules
   .module__infoDep-place span {
     display: block;
     font-size: 46px;
-    padding: 16px;
+    padding: 6px;
     padding-left: 23px;
     color: #fff; }
 
@@ -8017,7 +8020,11 @@ Modules
   height: 172px;
   top: 64px;
   left: -30px;
-  background: url("../images/diline.png"); }
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; }
+  .modile__infoDep-diline img {
+    height: 100%;
+    width: 100%; }
 
 .modile__infoDep-line {
   background: url("../images/photo-line.png");
@@ -8089,7 +8096,8 @@ Modules
   left: 266px;
   background: url("../images/big-like-after.png");
   width: 32px;
-  height: 28px; }
+  height: 28px;
+  display: none; }
 
 .modile__infoDep-like-but-after-small {
   position: absolute;
@@ -8097,7 +8105,8 @@ Modules
   left: 246px;
   background: url("../images/smal-like-after.png");
   width: 17px;
-  height: 16px; }
+  height: 16px;
+  display: none; }
 
 .modile__infoDep-dislike-but {
   position: absolute;
@@ -8118,7 +8127,8 @@ Modules
   left: 266px;
   background: url("../images/big-dislike-after.png");
   width: 33px;
-  height: 43px; }
+  height: 43px;
+  display: none; }
 
 .modile__infoDep-dislike-but-after-small {
   position: absolute;
@@ -8126,7 +8136,8 @@ Modules
   left: 245px;
   background: url("../images/small-dislike-after.png");
   width: 16px;
-  height: 21px; }
+  height: 21px;
+  display: none; }
 
 .btn-back {
   background: url("../images/close_but.png") center no-repeat;
@@ -8256,15 +8267,17 @@ Modules
     .module__top_text span {
       font-size: 13px; }
   .module__logo {
-    margin-left: 10px;
-    margin-top: 5px;
-    width: 70px; }
+    margin-top: 15px; }
+    .module__logo img {
+      margin-left: 10px;
+      width: 50px; }
   .module__subtitle-subtext {
     font-size: 12px; }
   .module__list_party {
     margin-top: -200px; }
     .module__list_party li {
-      margin-bottom: 15px; }
+      margin-bottom: 15px;
+      text-align: left; }
   .modile__infoDep {
     margin-top: -50px;
     left: 50%;
@@ -8306,7 +8319,10 @@ Modules
   .property-list li span {
     margin-right: 10px !important; }
   .module__list-money {
-    margin-top: 27px; } }
+    margin-top: 27px; }
+  .module__tringl_edros #procent {
+    right: 0px;
+    left: 180px; } }
 
 .module__tringl_edros:hover {
   background: url("../images/tringl_edros_hover.png"); }
