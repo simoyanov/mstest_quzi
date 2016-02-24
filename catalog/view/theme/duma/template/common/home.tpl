@@ -215,12 +215,22 @@
 <!--                  <div class="center-block text-center"><img src="image/catalog/home/logo.png" alt="Дума 2016"></div>-->
                   <div class="row">
                 
-                <div class="col-xs-12  center-block module__title-infoperson open-sans-norm-it" id="party-right">
+                <!-- <div class="col-xs-12  center-block module__title-infoperson open-sans-norm-it" id="party-right"> -->
 <!--                   <span class="module__title-line "></span>партия<span class="module__title-line"></span><br>-->
-                    единая россия</div>
+                    <!-- единая россия</div> -->
+                   <div class="col-xs-12  center-block module__title-infoperson open-sans-norm-it">
+                            <span class="module__title-line "></span><span id="party-right">единая россия</span><span class="module__title-line"></span>
+                            </div>
+
+
+
+
                 <div class="col-xs-12 center-block">
                     <div class="module__title-name open-sans-exbolt" id="right-name">Сергей Железняк</div>
                 </div>
+
+
+                
                 <div class="col-xs-12  center-block module__title-infoperson open-sans-lite"><span class="module__title-line "></span><span id="birthday"> 30 июля 1970 г. (45 лет)</span> <span class="module__title-line"></span></div>
 
                 <div class="col-xs-6  col-sm-6 col-md-5 col-md-offset-1 col-lg-3 col-lg-offset-3">

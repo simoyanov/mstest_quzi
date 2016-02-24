@@ -25,7 +25,7 @@
             </div>
           </div>
           <div class="col-xs-12  center-block text-center ">
-            <span class="module__title-testsubtext open-sans-lite "> Пришло время выбирать своих героев! <br>Ответь на вопросы и определи, с какой партией <br>ты совпадаешь по взглядам. <br></span>
+            <span class="module__title-testsubtext open-sans-lite "> Пришло время выбирать своих героев! Ответь на вопросы и определи, с какой партией <br>ты совпадаешь по взглядам. <br></span>
           </div>
         </div>
 

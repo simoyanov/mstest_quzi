@@ -12838,10 +12838,10 @@ function changeHero(i){
     var bg = obj.peoples[i].bg;
     var profit = obj.peoples[i].profit;
     
-    $("#party-left").delay(1000).fadeOut(
-        1000,
+    $("#party-left").delay(100).fadeOut(
+        100,
         function () {
-            $("#party-left").text(party).fadeIn(1000)
+            $("#party-left").text(party).fadeIn(100)
         }
     );
     

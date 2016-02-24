@@ -43,7 +43,7 @@
                 <div class="module__title-test open-sans-exboltit">Какой из тебя депутат?</div>
             </div>
             <div class="col-xs-12  center-block text-center ">
-              <span class="module__title-testsubtext open-sans-lite ">Ответь на вопросы по истории госдумы и узнай, можешь ли ты стать достойным героем своего дистрикта!</span>
+              <span class="module__title-testsubtext open-sans-lite ">Ответь на вопросы по истории госдумы и узнай, можешь ли ты стать достойным героем <br> своего дистрикта!</span>
             </div>
           </div>
 
@@ -71,7 +71,7 @@
             <div class="module-step quiz-duma-step" id="step_<?= $i; ?>" data-timeout="30">
                 <div class="module-question">
                   <div class="row">
-                      <div class="col-xs-12  center-block text-center "> 
+                      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center "> 
                         <div class="module__quest open-sans-exboltit">
                           <?php echo $step['title']; ?>
                         </div>
