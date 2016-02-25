@@ -46,7 +46,7 @@
                                 <div class="module__tringl_edros"><span class="open-sans-exboltit" id="party0"></span><span id="procent" class="text-right open-sans-regular"></span></div>
                                <canvas id="canvas" width="362" height="434" ></canvas>
                                <div id="message"></div>
-                                
+                                <div id="map_mask"></div>
                             </div>
                             
                         

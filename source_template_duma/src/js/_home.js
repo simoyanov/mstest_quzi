@@ -185,12 +185,12 @@ var partyArray = [{party:'единая россия',procent:'46,6',list:[
                        {name:'Панина Елена Владимировна',face:'image/pics_faces/ed/face_panina.jpg'},
                        {name:'Ресин Владимир Иосифович',face:'image/pics_faces/ed/face_resin.jpg'}
 ]},
-                  {party:'справедливая россия',procent:'10',list:[
+                  {party:'справедливая россия',procent:'12,1',list:[
                       {name:'Агеев Александр Александрович',face:'image/pics_faces/sr/ageev.jpg'},
                       {name:'Хованская Галина Петровна',face:'image/pics_faces/sr/havanskaya.jpg'},
                       {name:'Тарнавский Александр Георгиевич',face:'image/pics_faces/sr/tarvavsky.jpg'}
                   ]},
-                  {party:'кпрф',procent:'12',list:[
+                  {party:'кпрф',procent:'19,4',list:[
                       {name:'Доровин Евгений Владимирович',face:'image/pics_faces/kprf/dorovin.jpg'},
                       {name:'Кумин Вадим Валентинович',face:'image/pics_faces/kprf/kumin.jpg'},
                       {name:'Потапов Александр Владимирович',face:'image/pics_faces/kprf/potapov.jpg'},
@@ -198,7 +198,7 @@ var partyArray = [{party:'единая россия',procent:'46,6',list:[
                       {name:'Родин Владимир Романович',face:'image/pics_faces/kprf/rodin.jpg'},
                       {name:'Смолин Олег Николаевич',face:'image/pics_faces/kprf/smolin.jpg'}
                   ]},
-                  {party:'лдпр',procent:'15',list:[
+                  {party:'лдпр',procent:'9,4',list:[
                       {name:'Анисимов Егор Игоревич',face:'image/pics_faces/ldpr/anisimov.jpg'},
                       {name:'Соболев Виктор Васильевич',face:'image/pics_faces/ldpr/sobolev.jpg'},
                       {name:'Свинцов Андрей Николаевич',face:'image/pics_faces/ldpr/svinsov.jpg'}
@@ -237,6 +237,23 @@ function createLi(e){
         }
     });
 }
+
+$("#map_mask").on(MOUSE_DOWN,function(){
+    var win_w = $(window).width();
+        if (win_w >= 1200) {
+            $('.module__map').transition({x:0,y:0},500);
+            $("#map_mask").fadeOut();
+        }else if (win_w >= 992) {
+            $('.module__map').transition({x:0,y:0,scale:0.7},500);
+            $("#map_mask").fadeOut();
+        }else if (win_w >= 768) {
+            $('.module__map').transition({x:0,y:0,scale:0.5},500);
+            $("#map_mask").fadeOut();
+        } else {
+            $("#map_mask").fadeOut();
+        }
+    
+});
 createLi(0);
 //по часовой
 function changeTrianglesData(){
@@ -260,7 +277,12 @@ function changeTrianglesData(){
     }
     var valProc = $("#party0").attr('data-val');
     valProc = parseInt(valProc);
-    $('#procent').delay(300).text(partyArray[valProc].procent).fadeIn();
+    setTimeout(function(){
+        console.log('work');
+        $('#procent').text(partyArray[valProc].procent);
+        $('#procent').fadeIn();
+    },500);
+    
     createLi(valProc);
     
 }
