@@ -3,6 +3,7 @@ var $_result_form = $('#poll-form'),
 	$_li_pagination = $('.pagination li');
 	$_wizard_answer_btn = $('.wizard-btn-answer');
 	$_wizard_next_btn = $('.wizard-btn-next-step');
+	var count_steps_of_wizard = 6;
 //для блокировки постоянного нажатия и отправки ajax
 var _send = true;
 var whatmuscovite = {
@@ -32,7 +33,7 @@ var whatmuscovite = {
 	        }else{
 	        	$('#pstep_'+step).attr('class', '').removeClass('active').addClass('no-correct');
 	        }
-	        
+	        whatmuscovite.showNextStep(step);
       	});
 
       	$_wizard_next_btn.on( MOUSE_DOWN, function(e){
@@ -71,6 +72,7 @@ var whatmuscovite = {
 			.delay(100)
 			.transition({'opacity':1,x: '0px'},250,function(){
 				$(this).addClass('current')
+				$('.warning-duma').show(200);
 			},'easeInOutBack');
 
 		$_li_pagination
@@ -84,12 +86,14 @@ var whatmuscovite = {
 		if (_step = count_steps_of_wizard) {
 			$('#step_'+_step).find('.wizard-btn-next-step').html('Получить результат');
 		}
+
 	},
 	showNextStep:function(_step){
 		if (_step+1 > count_steps_of_wizard) {
 	        _send = false;
 	        whatmuscovite.endWizard();
       	}else{
+      		$('.warning-duma').hide(200);
       		$('#step_'+_step)
 				.transition({'opacity':0, x: '500px'},250,function(){
 					$(this).addClass('hidden');
@@ -99,13 +103,14 @@ var whatmuscovite = {
       	}
 	},
 	endWizard:function(){
+		$('.warning-duma').hide(100);
 		console.log('Опрос завершен');
     	whatmuscovite.sendResult();
 	},
 	sendResult:function(){
 	    var data = $('#poll-form').serializeArray(); 
 	    console.log(data);
-	    yaCounter31626893.reachGoal(rbtn_share);
+	    // yaCounter31626893.reachGoal(rbtn_share);
 	    var url = '/send_result_quiz'
 	       $.ajax({
 	          url: url,

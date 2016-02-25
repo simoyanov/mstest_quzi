@@ -1,10 +1,10 @@
-<section class="module " data-background="image/catalog/test_bg.jpg">
+<section class="module module--full-height" data-background="image/catalog/test_bg.jpg">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-sm-12  col-md-12  col-lg-12 module module__border module__border--white">
+      <div class="col-xs-12 col-sm-12  col-md-12  col-lg-12 module module__border module__border--white module__border--min">
         <div class="row">
           <div class="col-xs-4 col-sm-1 col-md-1 col-lg-1 module__logo">
-            <a href="/index.html"><img src="assets/images/logo.png" alt="Дума 2016" class="module__logo-image" ></a>
+            <a href="/"><img src="assets/images/logo.png" alt="Дума 2016" class="module__logo-image" ></a>
           </div>
           <div class=" col-xs-6 col-sm-5 col-sm-offset-4 col-md-5 col-md-offset-5 col-lg-4 col-lg-offset-6">
             <span class="module__top_text open-sans-exboltit">567 340 <span>горят сердцами</span>
@@ -38,7 +38,7 @@
 
             <div class="module-question">
               <div class="row">
-                <div class="col-xs-12  center-block text-center ">
+                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2   text-center ">
                   <div class="module__quest open-sans-exboltit mr-t-70 fix-quest">
                     <?php echo $step['title']; ?>
                   </div>
@@ -51,7 +51,7 @@
                 <div class="center-block text-center">
                 <?php $j=1; ?>
                 <?php foreach ($step['ar_questions'] as $question) { ?>
-                  <div class="btn module__answer-choice2 open-sans-regular"
+                  <div class="btn open-sans-lite  wizard-btn-answer module__answer-choice2 "
                     data-step="<?php echo $i; ?>"
                     data-question="<?php echo $step['qitem_id']; ?>"
                     data-answer="<?php echo $question['question_id']; ?>"
@@ -70,9 +70,14 @@
           <?php } ?>
         </div>
 
+
+    
+
+
+
         <div class="row">
           <div class="col-xs-12 col-sm-5 col-sm-offset-7 col-md-4 col-md-offset-8 col-lg-3 col-lg-offset-9 ">
-            <div class="warning-duma  mt-130 ">
+            <div class="warning-duma  mt-130 warning-duma--fix_bottom">
               <!-- /*mt-130 убрать если нет таймера*/ -->
               <div class="icon-hand ml-12"></div><span class="warning-duma__text open-sans-lite text-center">информбюро думы <br>предупреждает!</span>
             </div>
@@ -83,12 +88,12 @@
             <img src="assets/images/burger_2.png" alt="">
           </div>
           <ul class="menu__nav">
-            <li class="menu__nav-title open-sans-lite"><a href="/index.html">Главная</a></li>
+            <li class="menu__nav-title open-sans-lite"><a href="/">Главная</a></li>
             <li class="menu__nav-step  open-sans-regular">I Этап</li>
-            <li class="menu__nav-title open-sans-lite"><a href="/test1.html">3наток думы</a></li>
-            <li class="menu__nav-title open-sans-lite"><a href="/test2.html">Кресло депутата</a></li>
-            <li class="menu__nav-title open-sans-lite"><a href="/test3.html">Рейтинг партий</a></li>
-            <li class="menu__nav-heros open-sans-lite"><a href="/index.html#heros">Герои</a></li>
+             <li class="menu__nav-title open-sans-lite"><a href="/quiz_znatok_duma">3наток думы</a></li>
+              <li class="menu__nav-title open-sans-lite"><a href="/quiz_kreslo_deputata">Кресло депутата</a></li>
+              <li class="menu__nav-title open-sans-lite"><a href="/quiz_oceni_zakon">Рейтинг партий</a></li>
+            <li class="menu__nav-heros open-sans-lite"><a href="/#heros">Герои</a></li>
             <li class="menu__nav-step  menu__nav-stepfix open-sans-regular">II Этап</li>
             <li class="menu__nav-title menu__nav-titlefix open-sans-lite">подпишись чтобы выжить</li>
             <li class="input-group menu__nav-input">

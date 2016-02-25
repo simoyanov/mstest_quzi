@@ -210,6 +210,7 @@
     visibility: hidden;
     opacity: 0;
     transition: all 2s;
+    z-index: 99;
 }
 #procent:after{
     display: block;
@@ -226,6 +227,8 @@
     transform: translateX(-220px);
     transition: all 1s;
     opacity: 1;
+    z-index: 99;
+
 }
 
 .menu_smal {
@@ -238,7 +241,9 @@
     visibility: hidden;
     opacity: 0;
     transition: all 2s;
+    z-index: 99;
 }
+
 
 .menu-open-smal {
     visibility: visible;
