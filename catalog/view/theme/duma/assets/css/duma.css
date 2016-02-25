@@ -7749,7 +7749,9 @@ Modules
     position: absolute;
     top: -60px;
     left: 27px;
-    background: url("../images/mosrumap.png"); }
+    background: url("../images/mosrumap.png");
+    -webkit-transform: translate(90%, 0px);
+    -moz-transform: translate(90%, 0px); }
   .module__tringl {
     position: absolute; }
     .module__tringl_edros {
@@ -7819,6 +7821,11 @@ Modules
         left: -160px;
         width: 420px;
         text-align: center; }
+
+#map_mask {
+  position: absolute;
+  width: 100%;
+  height: 100%; }
 
 #cont {
   position: relative; }
@@ -8195,8 +8202,8 @@ Modules
 
 @media (max-width: 1199px) {
   .module__map {
-    -webkit-transform: scale(0.7);
-    -moz-transform: scale(0.7);
+    -webkit-transform: scale(0.7) translate(90%, 0px);
+    -moz-transform: scale(0.7) translate(90%, 0px);
     left: -30px; }
   .module__list_party {
     font-size: 12px;
@@ -8206,8 +8213,8 @@ Modules
 
 @media (max-width: 991px) {
   .module__map {
-    -webkit-transform: scale(0.5);
-    -moz-transform: scale(0.5);
+    -webkit-transform: scale(0.5) translate(90%, 0px);
+    -moz-transform: scale(0.5) translate(90%, 0px);
     left: -70px; }
   .module__list_party {
     font-size: 12px;
@@ -8226,6 +8233,8 @@ Modules
   display: none; }
 
 @media (max-width: 768px) {
+  #map_mask {
+    display: none; }
   #map-box {
     padding: 0; }
     #map-box #wrap-map {
@@ -8236,7 +8245,9 @@ Modules
       #map-box #wrap-map .module__map {
         -webkit-transform: scale(0.45);
         -moz-transform: scale(0.45);
-        left: -70px;
+        margin: 0 auto;
+        position: relative;
+        left: -30px;
         top: -140px; }
       #map-box #wrap-map .module__list_party {
         padding-left: 90px; }
