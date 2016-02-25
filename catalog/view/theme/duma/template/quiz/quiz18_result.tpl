@@ -44,7 +44,7 @@
                 <div class="module__title-test open-sans-exboltit">Какой из тебя депутат?</div>
             </div>
             <div class="col-xs-12  center-block text-center ">
-              <span class="module__title-testsubtext open-sans-lite ">Ответь на вопросы по истории госдумы и узнай, можешь ли ты стать достойным героем своего дистрикта!</span>
+              <span class="module__title-testsubtext open-sans-lite ">Ответь на вопросы по истории госдумы и узнай, можешь ли ты стать достойным героем <br> своего дистрикта!</span>
             </div>
           </div>
 

@@ -12422,7 +12422,9 @@ return jQuery;
 
 
 window.onload = function () {
-    init();
+	if ( $("canvas").is("#canvas") === true) {
+		 init();
+}
 }
 
 function init(){
@@ -12511,6 +12513,10 @@ function initTriangleToy(onCompleteEvent, canvasid){
 		context.fillStyle = "rgba(255, 255, 255, " + bgObj.alpha + ")";		 
 		context.fill();		 
 		} 
+
+
+		
+	
 		requestAnimationFrame(render);	 
 	}	 
 	function Point(x,y, alpha){
@@ -12809,7 +12815,7 @@ obj.peoples[0] = {party:"Единая россия",
                           {year:"2014",money:"5557259",area:"392,4",transport:["bike"]}]};
 
 obj.peoples[1] = {party:"Единая россия",
-                  name:"Кожвеникова Мария",
+                  name:"Кожевникова Мария",
                   quote:"ОЧЕНЬ ВАЖНО, ЧТОБЫ ЦЕННОСТНЫЕ ОРИЕНТИРЫ, ЛЮБОВЬ К РОДИНЕ, ПАТРИОТИЗМ ФОРМИРОВАЛИСЬ С ДЕТСТВА И БЫЛИ НЕОТЪЕМЛЕМОЙ ЧАСТЬЮ ПРОЦЕССА ВОСПИТАНИЯ И СТАНОВЛЕНИЯ ГРАЖДАНИНА",
                   birthday:"30 ИЮНЯ 1980 Г. (35 ЛЕТ)",
                   rating:"25",
@@ -12832,10 +12838,10 @@ function changeHero(i){
     var bg = obj.peoples[i].bg;
     var profit = obj.peoples[i].profit;
     
-    $("#party-left").delay(1000).fadeOut(
-        1000,
+    $("#party-left").delay(100).fadeOut(
+        100,
         function () {
-            $("#party-left").text(party).fadeIn(1000)
+            $("#party-left").text(party).fadeIn(100)
         }
     );
     

@@ -41,10 +41,10 @@
            <!-- заголовки  -->
           <div class="row">
             <div class="col-xs-12  center-block">
-                <div class="module__title-test open-sans-exboltit">Какой из тебя депутат?</div>
+                <div class="module__title-test open-sans-exboltit">какая партия тебе подходит?</div>
             </div>
             <div class="col-xs-12  center-block text-center ">
-              <span class="module__title-testsubtext open-sans-lite ">Ответь на вопросы по истории госдумы и узнай, можешь ли ты стать достойным героем своего дистрикта!</span>
+             <span class="module__title-testsubtext open-sans-lite "> Пришло время выбирать своих героев! Ответь на вопросы и определи, с какой партией <br>ты совпадаешь по взглядам. <br></span>
             </div>
           </div>  
 

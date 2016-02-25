@@ -85,7 +85,7 @@ display: inline;
     text-transform: uppercase;
     border: 1px solid #fff;
     width: 300px;
-    min-height: 120px;
+    min-height: 115px;
     display: inline-table;
     letter-spacing: 2px;
     color: #fff;
@@ -96,6 +96,7 @@ display: inline;
     margin-right: 12px;
     cursor: pointer;
     border-radius: 0px !important;
+    padding: 10px 5px 10px 5px!important;
     
     @media (max-width: $screen-xs-max) {
     width: 95%;

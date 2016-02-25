@@ -151,7 +151,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-12  center-block text-center">
+                        <div class="col-xs-12  center-block text-center mt-30">
                             <a id="solution" class="btn_solution open-sans-exbolt hidden">Принять решение</a>
                         </div>
                     </div>
