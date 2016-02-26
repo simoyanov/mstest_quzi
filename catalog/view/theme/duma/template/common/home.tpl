@@ -175,16 +175,110 @@
                         <div class="col-xs-12  center-block module__title-infoperson open-sans-norm-it">
                             <span class="module__title-line "></span>партия<span class="module__title-line"></span>
                             </div>
+                            <div class="col-xs-12  center-block">
+                            <div class="module-title-big open-sans-exbolt text-center">Герои</div>
+                        </div>
            </div>
+           <div class="row heroes-gif-cont">
+               <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                   <div class="heroes-gif"><span>1</span></div>
+               </div>
+               <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                   <div class="heroes-gif"><span>1</span></div>
+               </div>
+               <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                   <div class="heroes-gif"><span>1</span></div>
+               </div>
+               <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                   <div class="heroes-gif"><span>1</span></div>
+               </div>
+               <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                   <div class="heroes-gif"><span>1</span></div>
+               </div>
+               <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                   <div class="heroes-gif"><span>1</span></div>
+               </div>
+               <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                   <div class="heroes-gif"><span>1</span></div>
+               </div>
+               <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                   <div class="heroes-gif"><span>1</span></div>
+               </div>
+               <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                   <div class="heroes-gif"><span>1</span></div>
+               </div>
+               <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                   <div class="heroes-gif"><span>1</span></div>
+               </div>
+               <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                   <div class="heroes-gif"><span>1</span></div>
+               </div>
+               <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                   <div class="heroes-gif"><span>1</span></div>
+               </div>
+               <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                   <div class="heroes-gif"><span>1</span></div>
+               </div>
+               <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                   <div class="heroes-gif"><span>1</span></div>
+               </div>
+               <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                   <div class="heroes-gif"><span>1</span></div>
+               </div>
+               <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                   <div class="heroes-gif"><span>1</span></div>
+               </div>
+               <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                   <div class="heroes-gif"><span>1</span></div>
+               </div>
+               <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                   <div class="heroes-gif"><span>1</span></div>
+               </div>
+               <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                   <div class="heroes-gif"><span>1</span></div>
+               </div>
+               <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                   <div class="heroes-gif"><span>1</span></div>
+               </div>
+               <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                   <div class="heroes-gif"><span>1</span></div>
+               </div>
+               <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                   <div class="heroes-gif"><span>1</span></div>
+               </div>
+               <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                   <div class="heroes-gif"><span>1</span></div>
+               </div>
+               <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                   <div class="heroes-gif"><span>1</span></div>
+               </div>
+               <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                   <div class="heroes-gif"><span>1</span></div>
+               </div>
+               <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                   <div class="heroes-gif"><span>1</span></div>
+               </div>
+               <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                   <div class="heroes-gif"><span>1</span></div>
+               </div>
+           </div>
+           <div class="row" id="heroes-share">
+               <div class="center-block text-center">
+                           <p style="font-size:48px;">ЗДЕСЬ БУДЕТ ШАРИНГ</p>
+                            <ul class="soc-link">
+                                <li><a href="#" class="fix-fs"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#" class="fix-tw" ><i  class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#" class="fix-vk"><i class="fa fa-vk"></i></a></li>
+                                <li><a href="#" class="fix-fs"><i class="fa fa-odnoklassniki"></i></a></li>
+                            </ul>
+                        </div>
+               
+           </div>
+<!--
            <div id="wrap">
                <div class="col-xs-6" id="left-box">
-<!--                 <div class="center-block text-center"><img src="image/catalog/home/logo.png" alt="Дума 2016"></div>-->
                   <div class="row">
-<!--
-                        <div class="col-xs-12  center-block module__title-infoperson open-sans-norm-it">
-                            <span class="module__title-line "></span>партия<span class="module__title-line"></span>
-                            </div>
--->
                         <div class="col-xs-12  center-block">
                             <div class="module-title-big open-sans-exbolt text-center">Герои</div>
                         </div>
@@ -212,12 +306,9 @@
                
                
                <div class="col-xs-6 module" id="right-box" data-background="">
-<!--                  <div class="center-block text-center"><img src="image/catalog/home/logo.png" alt="Дума 2016"></div>-->
                   <div class="row">
                 
-                <!-- <div class="col-xs-12  center-block module__title-infoperson open-sans-norm-it" id="party-right"> -->
-<!--                   <span class="module__title-line "></span>партия<span class="module__title-line"></span><br>-->
-                    <!-- единая россия</div> -->
+
                    <div class="col-xs-12  center-block module__title-infoperson open-sans-norm-it">
                             <span class="module__title-line "></span><span id="party-right">единая россия</span><span class="module__title-line"></span>
                             </div>
@@ -237,7 +328,7 @@
                     <div class="module__infoDep-place fix-place"><span class="open-sans-lite" id="rating">39</span>
                     </div>
                     <span class="module__place-text open-sans-exbolt"> место в рейтинге <br>
-                             <span class="open-sans-regular">(из 450 депутатов)</span>
+                             <span class="open-sans-regular">(из 27 депутатов)</span>
                     </span>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-5 col-lg-3 ">
@@ -279,6 +370,7 @@
                    
                </div>
            </div>
+-->
            <div class="row">
                         <div class="center-block text-center">
                             <ul class="soc-link">
