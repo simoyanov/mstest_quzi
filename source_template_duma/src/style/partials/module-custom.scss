@@ -1248,3 +1248,25 @@
     height: 110px;
     display: inline-block;
 }
+
+/******************************/
+#heroes-share{display: none;}
+
+.heroes-gif{
+    width: 223px;
+    height: 161px;
+    position: relative;
+    text-align: center;
+    border: 2px solid #ffffff;
+    border-radius: 161px;
+    margin: 0 auto;
+    transition: all ease-in-out 0.3s;
+    span{
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+        color: #fff;
+        font-size: 30px;
+        font-weight: 600;
+    }
+}
