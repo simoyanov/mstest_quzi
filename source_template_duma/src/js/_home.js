@@ -359,12 +359,14 @@ var heroesGifId = 0;
 $(".heroes-gif").on(MOUSE_DOWN,function(){
     if (heroesGifId < 5){
         console.log(this);
-        $(this).children().text('2');
-        $(this).css({'background-color':'#ffd9b3'});
+        $(this).children('img').transition({scale:0}, 500);
+        $(this).children('.boom').transition({scale:1}, 500);
+//        $(this).css({'background-color':'#ffd9b3'});
         var gifId = this;
         setTimeout(function(){
-            $(gifId).children().text('3');
-            $(gifId).css({'background-color':'#6794a2'});
+            $(gifId).children('.boom').fadeOut();
+            $(gifId).children('.heroes-plate').fadeIn();
+//            $(gifId).css({'background-color':'#6794a2'});
             console.log(this);
             console.log('bla');
         }, 1000);
