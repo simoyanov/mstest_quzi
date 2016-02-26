@@ -8673,21 +8673,59 @@ Modules
 #heroes-share {
   display: none; }
 
+.heroes-yellow {
+  color: #8b0506;
+  background-color: #ffe102; }
+
+.heroes-white {
+  color: #000;
+  background-color: #fff; }
+
+.heroes-blue {
+  color: #f1ff0f;
+  background-color: #2386f4; }
+
+.heroes-red {
+  color: #fff;
+  background-color: #e4000f; }
+
+.boom {
+  background-image: url("../images/boom.png");
+  position: absolute;
+  left: 18px;
+  top: 11px;
+  width: 188px;
+  height: 138px;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0); }
+
+.heroes-plate {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none; }
+  .heroes-plate span {
+    font-size: 14px !important;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    margin-top: 10px !important;
+    text-transform: uppercase; }
+
 .heroes-gif {
   width: 223px;
   height: 161px;
   position: relative;
   text-align: center;
-  border: 2px solid #ffffff;
-  border-radius: 161px;
-  margin: 0 auto;
+  margin: 25px auto;
   -webkit-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s; }
   .heroes-gif span {
     display: block;
     margin: 0 auto;
     margin-top: 50px;
-    color: #fff;
     font-size: 30px;
     font-weight: 600; }
 
