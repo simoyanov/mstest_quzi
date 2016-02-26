@@ -76,7 +76,7 @@ $(function() {
 });
  
 
-if (mobile === true) {
+if (mobile || tablet === true) {
     $('#help_scr').removeClass('hidden');
 }
 var MOUSE_CLICK = "click";
@@ -97,7 +97,7 @@ $('#btn_next').on(MOUSE_CLICK, function() {
 });
 
 $('#btn_next-part').on(MOUSE_CLICK, function() {
-    if (mobile === true) {
+    if (mobile || tablet === true) {
         $('#part_scr').removeClass('hover_scr_on_mob-left-on');
     }
 });
@@ -112,12 +112,12 @@ var sobid = ['sob_1', 'sob_2', 'sob_3', 'sob_4', 'sob_5', 'sob_6', 'sob_7', 'sob
 var nowid = 'sob_1'; // текуший id 
 
 bnt_back.on(MOUSE_CLICK, function() {
-    if (mobile === true) {
+    if (mobile || tablet === true) {
         $('#part_scr').removeClass('hover_scr_on_mob-left-on');
     }
 });
 $('#btn_back_solution').on(MOUSE_CLICK, function() {
-    if (mobile === true) {
+    if (mobile || tablet === true) {
         $('#part_scr_solutio').removeClass('hover_scr_on_mob-left-on');
     }
 });
@@ -218,7 +218,7 @@ function chosesobie(idcard) {
     nowid = idcard;
     // var top = $(document.getElementById(nowid)).offset().top;  
     // $('#part_scr').css({"padding-top": top*1.6+"px" });
-    if (mobile === true) {
+    if (mobile || tablet === true) {
         if (hashoveriinid(nowid) === true) {
             removehovercard(nowid);
         } else {
@@ -241,7 +241,8 @@ function endSolution() {
 
 
 /* fix for ipad */
-if (mobile === true) {
+if (mobile || tablet === true) {
+    console.log('mobile');
     $('#allScore').addClass('hidden');
 }
 /*  функция получия id в каждой партии
@@ -276,10 +277,10 @@ function getidInPart(nomer_part) {
   
 
 
- var  edr_ros_sc = 40000;
- var  ldpr_sc    = 20000; 
- var  kprf_sc    = 10000;
- var  sp_ros_sc  = 10000;
+ var  edr_ros_sc = 38560+'<br>голосов';
+ var  ldpr_sc    = 19168+'<br>голосов'; 
+ var  kprf_sc    = 10115+'<br>голосов';
+ var  sp_ros_sc  = 8956+'<br>голосов';
 
  var  mob_sol_bnt = $('#solut_mob');
 
@@ -315,3 +316,4 @@ btnsol.on(MOUSE_CLICK, function() {
 mob_sol_bnt.on(MOUSE_CLICK, function() {
     showResult();
 });
+
