@@ -181,85 +181,85 @@
            </div>
            <div class="row heroes-gif-cont">
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.png" alt=""><div class="boom"></div><div class="heroes-plate heroes-yellow"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-yellow"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.png" alt=""><div class="boom"></div><div class="heroes-plate heroes-red"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-red"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.png" alt=""><div class="boom"></div><div class="heroes-plate heroes-white"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-white"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.png" alt=""><div class="boom"></div><div class="heroes-plate heroes-blue"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-blue"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.png" alt=""><div class="boom"></div><div class="heroes-plate heroes-yellow"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-yellow"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.png" alt=""><div class="boom"></div><div class="heroes-plate heroes-red"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-red"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.png" alt=""><div class="boom"></div><div class="heroes-plate heroes-white"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-white"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.png" alt=""><div class="boom"></div><div class="heroes-plate heroes-blue"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-blue"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.png" alt=""><div class="boom"></div><div class="heroes-plate heroes-yellow"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-yellow"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.png" alt=""><div class="boom"></div><div class="heroes-plate heroes-red"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-red"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.png" alt=""><div class="boom"></div><div class="heroes-plate heroes-white"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-white"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.png" alt=""><div class="boom"></div><div class="heroes-plate heroes-blue"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-blue"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.png" alt=""><div class="boom"></div><div class="heroes-plate heroes-yellow"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-yellow"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.png" alt=""><div class="boom"></div><div class="heroes-plate heroes-red"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-red"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.png" alt=""><div class="boom"></div><div class="heroes-plate heroes-white"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-white"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.png" alt=""><div class="boom"></div><div class="heroes-plate heroes-blue"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-blue"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.png" alt=""><div class="boom"></div><div class="heroes-plate heroes-yellow"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-yellow"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.png" alt=""><div class="boom"></div><div class="heroes-plate heroes-red"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-red"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.png" alt=""><div class="boom"></div><div class="heroes-plate heroes-white"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-white"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.png" alt=""><div class="boom"></div><div class="heroes-plate heroes-blue"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-blue"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.png" alt=""><div class="boom"></div><div class="heroes-plate heroes-yellow"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-yellow"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.png" alt=""><div class="boom"></div><div class="heroes-plate heroes-red"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-red"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.png" alt=""><div class="boom"></div><div class="heroes-plate heroes-white"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-white"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.png" alt=""><div class="boom"></div><div class="heroes-plate heroes-blue"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-blue"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.png" alt=""><div class="boom"></div><div class="heroes-plate heroes-yellow"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-yellow"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.png" alt=""><div class="boom"></div><div class="heroes-plate heroes-red"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-red"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.png" alt=""><div class="boom"></div><div class="heroes-plate heroes-white"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-white"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
                </div>
            </div>
            <div class="row" id="heroes-share">

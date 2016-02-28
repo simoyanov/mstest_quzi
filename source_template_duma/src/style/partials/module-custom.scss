@@ -1265,7 +1265,11 @@
     -webkit-transform: scale(0);
 	    -moz-transform: scale(0);
 }
-
+.hero_party_plate{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 .heroes-plate{
     position: absolute;
     top: 0;
@@ -1288,7 +1292,7 @@
     height: 161px;
     position: relative;
     text-align: center;
-    margin: 25px auto;
+    margin: 17px auto;
     transition: all ease-in-out 0.3s;
     span{
         display: block;
