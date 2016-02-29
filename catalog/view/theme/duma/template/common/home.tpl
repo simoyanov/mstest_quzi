@@ -168,7 +168,7 @@
 
 
     <section class="module" data-background="image/catalog/home/heros.jpg" id="heros">
-       <div class="container-fluid" id="heros-box">
+       <div class="container" id="heros-box">
          <div id="heros-bg"></div>
           <div class="center-block text-center gerb"><img src="image/catalog/home/logo.png" alt="Дума 2016"></div>
           <div class="row">
@@ -181,97 +181,97 @@
            </div>
            <div class="row heroes-gif-cont">
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-yellow"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif">
+                   <img src="image/catalog/gif/ageev.gif" width="157" alt="">
+                   <img src="image/catalog/home/plate_sr.png" alt="" class="hero_party_plate">
+                   <div class="boom"></div>
+                   <div class="heroes-plate heroes-yellow">
+                       <span>Трудовую деятельность начал в 19 лет. Работал юристом в волгоградской юридической фирме. Через три года создал и возглавил собственную юридическую фирму.</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-red"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/gif/anisimov.gif" width="157" alt=""><img src="image/catalog/home/plate_ldpr.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-blue"><span>Внес патриотический законопроект «О мерах противодействия санкциям иностранных государств в области культуры и о внесении изменений в Кодекс Российской Федерации об административных правонарушениях».</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-white"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/gif/dorovin.gif" width="157" alt=""><img src="image/catalog/home/plate_kprf.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-red"><span>в 8-ом таксомоторном парке г.Москвы работал водителем.</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-blue"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/gif/belykh.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-white"><span>С 1985 года работала в школе № 235 в должности учителя начальных классов, с 1988 года - учитель математики.</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-yellow"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/gif/gonchar.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-white"><span>Работал в должности инженера радиозавода.</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-red"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/gif/isaev.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-white"><span>«Мелкие твари — расслабьтесь, вы нам безразличны. А вот конкретный редактор и автор ответят жёстко».</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-white"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/gif/havanskaya.gif" width="157" alt=""><img src="image/catalog/home/plate_sr.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-yellow"><span>«Для меня СПС-овцы были слишком крутые. Я Чубайса как организатора очень уважаю, но это человек, который по трупам к светлому будущему — к рынку. Пусть там все вымрут, но мы своего добьемся. Я считаю, что игнорировать социальную составляющую — это рубить сук, на котором сидишь..»</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-blue"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/gif/sobolev.gif" width="157" alt=""><img src="image/catalog/home/plate_ldpr.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-blue"><span>Окончил Русский институт управления г. Москва (специальность – юриспруденция). Доход 3 875 998,67 руб. Супруга: 930 000,00 руб.</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-yellow"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/gif/kumin.gif" width="157" alt=""><img src="image/catalog/home/plate_kprf.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-yellow"><span>Доход в 2014 году: 4 783 056,60 руб. В бюджет Челябинской области и Москвы задолжал 118 295 рублей. (По состоянию на Март, 2015 года).</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-red"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/gif/Kozhevnikova.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-red"><span>«Регионы разные, люди в них живут разные. Чтобы увести молодежь с улицы, подальше от криминала, от пьянства, наркотиков, мы должны им предложить варианты…»</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-white"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/gif/nikonov.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-white"><span>Был заведующим кафедрой истории и политологии. Доход в 2014 году: 6 963 040,21 руб.</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-blue"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/gif/kuzin.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-blue"><span>Работал старшим пионерским вожатым и старшим педагогом пионерского лагеря. Доход в 2014 году: 4 122 740,78 руб.</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-yellow"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/gif/tarnavsky.gif" width="157" alt=""><img src="image/catalog/home/plate_sr.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-yellow"><span>Принимал участие в работе экспертных советов, занимающихся реформированием законодательства в сфере пенсионного и социального обеспечения Российской Федерации.</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-red"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/gif/svincov.gif" width="157" alt=""><img src="image/catalog/home/plate_ldpr.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-red"><span>В 2000 году с отличием окончил строительный факультет Московского государственного университета природообустройства. Более 10 раз участвовал в выборах депутатов разного уровня.</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-white"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/gif/smolin.gif" width="157" alt=""><img src="image/catalog/home/plate_kprf.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-white"><span>Любимые литературные образы в политике - сказка Андерсена о двух лягушках в сметане или “миф о Сизифе” Альбера Камю.</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-blue"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/gif/panina.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-blue"><span>Небоскреб будет располагаться в 10 метрах от муниципального заповедника с одной стороны, в 15 метрах от АЗС с другой стороны, под небоскребом проходит газопровод, а под газопроводом подземная река. Доход в 2014 году: 29 324 799,91 руб.</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-yellow"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/gif/resin.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-yellow"><span>Только из одного кабинета в здании можно уйти по черной лестнице, избегая ненужной встречи. Как ни странно, это кабинет командующего «танковыми войсками» строительного комплекса Москвы. Доход в размере более 44,2 млн рублей.</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-red"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/gif/volkov.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-red"><span>Доход за 2014 год: 3, 9 млн. рублей. В собсвенности: квартира 120,5 квартира (общая долевая собственность, 1/2) 165,2 машиноместо 19,5.</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-white"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/gif/potapov.gif" width="157" alt=""><img src="image/catalog/home/plate_kprf.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-white"><span>Работал на крупном предприятии в области создания ракетной техники на инженерных должностях.</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-blue"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/gif/rashkin.gif" width="157" alt=""><img src="image/catalog/home/plate_kprf.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-blue"><span>"Пригласили на турнир по пулевой и стендовой стрельбе среди депутатов Думы. Согласился, в качестве мишени хочу Путина".</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-yellow"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/gif/rodin.gif" width="157" alt=""><img src="image/catalog/home/plate_kprf.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-yellow"><span>Если бы не я, то и Крым до сих пор был бы не нашим, и Новороссия давно бы сдалась полчищам укров. </span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-red"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/gif/vyborny.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-red"><span>Работал следователем военной прокуратуры и старшим военным прокурором.</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-white"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/gif/zharkov.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-white"><span>Окончил Абхазский Государственный Университет имени А.М. Горького, специальность экономист, бухгалтерский учет и аудит. Доход в 2014 году: 49 114 904,23 руб. Супруга: 2 000 000,00 руб.</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-blue"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/gif/antoshkin.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-blue"><span>Принимал участие в конфликтах на советско-китайской границе (совершал разведывательные вылеты вдоль границы, отслеживая перемещения китайских войск).</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-yellow"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/gif/zheleznyk.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-yellow"><span>Был заместителем по политической части командира учебной роты газотурбинистов и мотористов дизельных установок.</span></div></div>
                </div>
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-red"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/gif/Zvagelski.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-red"><span>После окончания института прошел путь от инженера до заместителя начальника управления «Главмосводоканал». Доход в 2014 году: 3 882 888,09 руб.</span></div></div>
                </div>
+<!--
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                   <div class="heroes-gif"><img src="image/catalog/home/heroes-gif.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-white"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
+                   <div class="heroes-gif"><img src="image/catalog/gif/.gif" width="157" alt=""><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="boom"></div><div class="heroes-plate heroes-white"><span>КПРФ — это советские деграданты. Они сами не понимают, куда попали. И навыков у них нет, кроме бюрократической возни</span></div></div>
                </div>
+-->
            </div>
            <div class="row" id="heroes-share">
                <div class="center-block text-center">
-                           <p style="font-size:48px;">ЗДЕСЬ БУДЕТ ШАРИНГ</p>
-                            <ul class="soc-link">
-                                <li><a href="#" class="fix-fs"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#" class="fix-tw" ><i  class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#" class="fix-vk"><i class="fa fa-vk"></i></a></li>
-                                <li><a href="#" class="fix-fs"><i class="fa fa-odnoklassniki"></i></a></li>
-                            </ul>
+                           <img src="image/catalog/home/share.jpg" alt="">
                         </div>
                
            </div>
