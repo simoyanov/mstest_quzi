@@ -57,6 +57,7 @@
         letter-spacing: 2px;
         text-align: center;
         text-transform: uppercase;
+        line-height: 0.8;
     }
     &__subtitle-subtext {
         color: #fff;
@@ -94,17 +95,18 @@
     }
     &__map_rel {
         position: relative;
-        height: 637px;
+//        height: 637px;
     }
     &__map {
         width: 461px;
         height: 677px;
-        position: absolute;
-        top: -60px;
-        left: 27px;
+        position: relative;
+        margin: 0 auto;
+//        top: -60px;
+//        left: 27px;
         background: url("../images/mosrumap.png");
-        -webkit-transform: translate(90%,0px);
-	    -moz-transform: translate(90%,0px);
+//        -webkit-transform: translate(90%,0px);
+//	    -moz-transform: translate(90%,0px);
     }
     &__tringl {
         position: absolute;
@@ -1131,6 +1133,7 @@
     position: relative;
     z-index: 10;
     margin-top: 34px;
+    margin-bottom: 15px;
     padding-top: 30px;
     padding-left: 0px;
     li {
@@ -1277,7 +1280,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 217px;
+    width: 214px;
     height: 181px;
     display: none;
     span{
@@ -1327,15 +1330,15 @@
     }
 }
 
-.heroes-gif-cont div{
-//    padding-left: 0;
-//    padding-right: 0;
+.heroes-gif-cont{
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .first-block{
     background-color: #000;
 }
 .module-subtitle-big{
-    font-size: 52px;
+    font-size: 46px;
     text-transform: uppercase;
     color: #fff;
     letter-spacing: 0.2em;
@@ -1395,3 +1398,20 @@
 }
 .second-block h1{margin-top: 100px;}
 .second-block img{margin-top: 60px; margin-bottom: 50px;}
+.btn-test3:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.btn-test3{
+    display: block;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 0 32px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 24px;
+    transform: skew(-10deg);
+    width: 300px;
+    margin: 65px auto;
+    margin-bottom: 40px;
+}

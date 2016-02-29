@@ -7710,7 +7710,8 @@ Modules
     font-size: 21px;
     letter-spacing: 2px;
     text-align: center;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    line-height: 0.8; }
   .module__subtitle-subtext {
     color: #fff;
     display: block;
@@ -7741,17 +7742,13 @@ Modules
       text-decoration: line-through;
       cursor: pointer; }
   .module__map_rel {
-    position: relative;
-    height: 637px; }
+    position: relative; }
   .module__map {
     width: 461px;
     height: 677px;
-    position: absolute;
-    top: -60px;
-    left: 27px;
-    background: url("../images/mosrumap.png");
-    -webkit-transform: translate(90%, 0px);
-    -moz-transform: translate(90%, 0px); }
+    position: relative;
+    margin: 0 auto;
+    background: url("../images/mosrumap.png"); }
   .module__tringl {
     position: absolute; }
     .module__tringl_edros {
@@ -8569,6 +8566,7 @@ Modules
   position: relative;
   z-index: 10;
   margin-top: 34px;
+  margin-bottom: 15px;
   padding-top: 30px;
   padding-left: 0px; }
   .soc-link li {
@@ -8707,7 +8705,7 @@ Modules
   position: absolute;
   top: 0;
   left: 0;
-  width: 217px;
+  width: 214px;
   height: 181px;
   display: none; }
   .heroes-plate span {
@@ -8753,11 +8751,15 @@ Modules
     top: 0px;
     left: 0px; }
 
+.heroes-gif-cont {
+  padding-left: 5px;
+  padding-right: 5px; }
+
 .first-block {
   background-color: #000; }
 
 .module-subtitle-big {
-  font-size: 52px;
+  font-size: 46px;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.2em; }
@@ -8820,6 +8822,24 @@ Modules
 .second-block img {
   margin-top: 60px;
   margin-bottom: 50px; }
+
+.btn-test3:hover {
+  text-decoration: none;
+  color: #fff; }
+
+.btn-test3 {
+  display: block;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 0 32px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 24px;
+  -webkit-transform: skew(-10deg);
+          transform: skew(-10deg);
+  width: 300px;
+  margin: 65px auto;
+  margin-bottom: 40px; }
 
 .module__title-test {
   background: url("../images/test/test-title.png") no-repeat center;
