@@ -1168,6 +1168,9 @@
     font-size: 159px;
     letter-spacing: 9px;
 }
+.module-title-mid {
+    margin-bottom: 40px;
+}
 
 .module__citata {
     text-transform: uppercase;
@@ -1256,12 +1259,12 @@
 .heroes-blue{color: #f1ff0f;background-color: #2386f4;}
 .heroes-red{color: #fff;background-color: #e4000f;}
 .boom {
-  background-image: url("../images/boom.png");
+//  background-image: url("../images/boom.png");
   position: absolute;
   left: 18px;
   top: 11px;
-  width: 188px;
-  height: 138px;
+//  width: 188px;
+//  height: 138px;
     -webkit-transform: scale(0);
 	    -moz-transform: scale(0);
 }
@@ -1275,15 +1278,25 @@
     top: 0;
     left: 0;
     width: 217px;
-    height: 161px;
+    height: 181px;
     display: none;
     span{
-        font-size: 12px !important;
+        font-size: 9px !important;
         padding-left: 5px;
         padding-right: 5px;
         text-align: center;
         margin-top: 10px !important;
         text-transform: uppercase;
+    }
+    span.heroes-gif-name{
+        margin: 0;
+        padding: 0px;
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+        font-weight: bold;
+        font-size: 11px !important;
+        text-align: right;
     }
 }
 .heroes-gif{
@@ -1301,8 +1314,84 @@
         font-size: 30px;
         font-weight: 600;
     }
+    .hero-img{position: relative; display: block;}
+    .border-img{
+        border: 4px #000 solid;
+        border-radius: 157px;
+         content: "";
+          position: absolute;
+        width: 157px;
+        height: 157px;
+        top: 0px;
+        left: 0px;
+    }
 }
+
 .heroes-gif-cont div{
 //    padding-left: 0;
 //    padding-right: 0;
 }
+.first-block{
+    background-color: #000;
+}
+.module-subtitle-big{
+    font-size: 52px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.2em;
+}
+.mark_pos {
+  background-image: url("../images/mark_pos.png");
+  position: absolute;
+  left: 61px;
+  top: 116px;
+  width: 43px;
+  height: 42px;
+    display: none;
+}
+.mark_pos.mark_active {
+  background-image: url("../images/mark_pos_a.png");
+}
+.mark_neg.mark_active {
+  background-image: url("../images/mark_neg_a.png");
+}
+.mark_neg {
+  background-image: url("../images/mark_neg.png");
+  position: absolute;
+  left: 107px;
+  top: 116px;
+  width: 42px;
+  height: 42px;
+    display: none;
+}
+.btn_again {
+  background-image: url("../images/btn_again.png");
+  width: 210px;
+  height: 53px;
+}
+.share-home{
+    max-width: 734px;
+    width: 100%;
+    color: #fff;
+}
+.share-home div:nth-child(1){
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.share-home div:nth-child(4){
+    text-transform: uppercase;
+    font-size: 22px;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+.share-home div:nth-child(2) .social-btn {
+    display: inline-block;
+    margin-right: 40px;
+    i{
+        margin-left: 10px;
+    }
+}
+.second-block h1{margin-top: 100px;}
+.second-block img{margin-top: 60px; margin-bottom: 50px;}
