@@ -414,5 +414,5 @@ $(".heroes-gif").on(MOUSE_DOWN,function(){
 });
 
 
-			
+		
 		

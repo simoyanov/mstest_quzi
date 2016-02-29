@@ -12,13 +12,20 @@ function init(){
 		MOUSE_UP = "touchend";
 	}
 //	toy.play();
-	$("#canvas").on(MOUSE_UP, function(){
-		toy.play();
+//	$("#canvas").on(MOUSE_UP, function(){
+//		toy.play();
+//        changeTrianglesData();
+//        closeAll();
+//        showList();
+//	});
+	function playAnim(){
+        toy.play();
         changeTrianglesData();
-        closeAll();
-        showList();
-	});
-	
+//        closeAll();
+//        showList();
+        setTimeout(playAnim,2500);
+    }
+    playAnim();
 	function complete(){
 		console.log('onComplete');
 	}
