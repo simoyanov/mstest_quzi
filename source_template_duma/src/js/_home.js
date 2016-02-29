@@ -356,21 +356,57 @@ $('#my-button').click(function() {
 
 /**********************************************/
 var heroesGifId = 0;
+$(".heroes-gif").attr('mouse-down',false);
 $(".heroes-gif").on(MOUSE_DOWN,function(){
     if (heroesGifId < 5){
-        console.log(this);
-        $(this).children('img').transition({scale:0}, 500);
-        $(this).children('.boom').transition({scale:1}, 500);
-//        $(this).css({'background-color':'#ffd9b3'});
-        var gifId = this;
-        setTimeout(function(){
-            $(gifId).children('.boom').fadeOut();
-            $(gifId).children('.heroes-plate').fadeIn();
-//            $(gifId).css({'background-color':'#6794a2'});
+        if($(this).attr('mouse-down') == 'false'){
             console.log(this);
-            console.log('bla');
-        }, 1000);
-        heroesGifId = heroesGifId + 1;
+            $(this).children('.hero-img').transition({scale:0,y:157}, 500);
+            $(this).children('.border-img').transition({scale:0,y:157}, 500, function(){
+                $(gifId).children('.border-img').css({'background-color':'rgba(0, 0, 0, 0.5)'});
+            });
+            $(this).children('.hero_party_plate').transition({scale:0,y:157}, 500);
+
+            $(this).children('.boom').transition({scale:1}, 500);
+            $(this).children('.boom').delay(100).fadeOut(100);
+
+            $(this).children('.hero-img').delay(300).transition({scale:1,y:0,opacity:0}, 0);
+            $(this).children('.border-img').delay(300).transition({scale:1,y:0,opacity:0}, 0);
+
+            $(this).children('.hero-img').delay(400).transition({scale:1,y:0,opacity:1}, 500);
+            $(this).children('.border-img').delay(400).transition({scale:1,y:0,opacity:1}, 500);
+            $(this).children('.mark_pos').delay(1200).fadeIn();
+            $(this).children('.mark_neg').delay(1200).fadeIn();
+    //        $(this).css({'background-color':'#ffd9b3'});
+            var gifId = this;
+    //        setTimeout(function(){
+    //            $(gifId).children('.boom').fadeOut();
+    ////            $(gifId).children('.heroes-plate').fadeIn();
+    ////            $(gifId).css({'background-color':'#6794a2'});
+    //            console.log(this);
+    //            console.log('bla');
+    //        }, 1000);
+            var markId = 0;
+            $(this).children('.mark_pos').on(MOUSE_DOWN,function(){
+                if (markId == 0){
+                    $(gifId).children('.mark_pos').addClass('mark_active');
+                }
+                markid = 1;
+                $(gifId).children('.heroes-plate').fadeIn();
+            });
+
+            $(this).children('.mark_neg').on(MOUSE_DOWN,function(){
+                if (markId == 0){
+                    $(gifId).children('.mark_neg').addClass('mark_active');
+                }
+                markid = 1;
+                $(gifId).children('.heroes-plate').fadeIn();
+            });
+
+            heroesGifId = heroesGifId + 1;
+            $(this).attr('mouse-down',true);
+        }
+        
     } else if(heroesGifId == 5){
         $('.heroes-gif-cont').fadeOut();
         $('#heroes-share').fadeIn();
