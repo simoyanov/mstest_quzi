@@ -352,7 +352,9 @@ $('#my-button').click(function() {
     });
 
 
-
+$('.btn_again').on(MOUSE_DOWN,function(){
+    location.reload();
+});
 
 /**********************************************/
 var heroesGifId = 0;
