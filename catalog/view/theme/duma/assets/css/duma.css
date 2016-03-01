@@ -8798,6 +8798,9 @@ Modules
   width: 100%;
   color: #fff; }
 
+.share-home div:nth-child(2) .social-btn, .share-home div:nth-child(3), .share-home div:nth-child(4) {
+  cursor: pointer; }
+
 .share-home div:nth-child(1) {
   text-transform: uppercase;
   font-weight: bold;
