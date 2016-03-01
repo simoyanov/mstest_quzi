@@ -12992,9 +12992,9 @@ function createLi(e){
             $('.modile__infoDep-diline').css({'height':'172px'});
         } else {
             $('#right-chang-box').fadeIn();
-            console.log('topVal');
-            console.log(topVal);
-            console.log($('.modile__infoDep').position().top);
+//            console.log('topVal');
+//            console.log(topVal);
+//            console.log($('.modile__infoDep').position().top);
             topVal = topVal + 45;
             $('.modile__infoDep-diline').css({'height':topVal});
         }
@@ -13016,10 +13016,10 @@ function changeTrianglesData(){
     for (i = partyArray.length -1; i >= 0; i--){
         var k = $("#party"+i).attr('data-val');
         k = parseInt(k);
-        console.log(k);
+//        console.log(k);
         k = k - 1;
         
-        console.log(k);
+//        console.log(k);
         if ( k < 0 ){
             k = k + 4;
             $("#party"+i).text(partyArray[k].party);
@@ -13099,10 +13099,18 @@ $('.btn_again').on(MOUSE_DOWN,function(){
 });
 
 /**********************************************/
+var heroVal = 0;
 var heroesGifId = 0;
+var heroBtnId = true;
 $(".heroes-gif").attr('mouse-down',false);
 $(".heroes-gif").on(MOUSE_DOWN,function(){
-    if (heroesGifId < 5){
+    console.log('heroBtnId',heroBtnId);
+    if (heroBtnId == true){
+        heroVal = heroVal + 1;
+        if(heroVal == 1){
+            $('#btn-result').fadeIn();
+        }
+        heroBtnId = false;
         if($(this).attr('mouse-down') == 'false'){
             console.log(this);
             $(this).children('.hero-img').transition({scale:0,y:157}, 500);
@@ -13121,42 +13129,56 @@ $(".heroes-gif").on(MOUSE_DOWN,function(){
             $(this).children('.border-img').delay(400).transition({scale:1,y:0,opacity:1}, 500);
             $(this).children('.mark_pos').delay(1200).fadeIn();
             $(this).children('.mark_neg').delay(1200).fadeIn();
-    //        $(this).css({'background-color':'#ffd9b3'});
             var gifId = this;
-    //        setTimeout(function(){
-    //            $(gifId).children('.boom').fadeOut();
-    ////            $(gifId).children('.heroes-plate').fadeIn();
-    ////            $(gifId).css({'background-color':'#6794a2'});
-    //            console.log(this);
-    //            console.log('bla');
-    //        }, 1000);
-            var markId = 0;
+            var markId = '';
             $(this).children('.mark_pos').on(MOUSE_DOWN,function(){
-                if (markId == 0){
-                    $(gifId).children('.mark_pos').addClass('mark_active');
-                }
-                markid = 1;
-                $(gifId).children('.heroes-plate').fadeIn();
+                showPlate();
+                markId = 'pos';
+                setTimeout(function(){
+                    $(gifId).children('.border-img').addClass('big-pos');
+                },500);
+
             });
 
             $(this).children('.mark_neg').on(MOUSE_DOWN,function(){
-                if (markId == 0){
-                    $(gifId).children('.mark_neg').addClass('mark_active');
-                }
-                markid = 1;
-                $(gifId).children('.heroes-plate').fadeIn();
+                showPlate();
+                markId = 'neg';
+                setTimeout(function(){
+                    $(gifId).children('.border-img').addClass('big-neg');
+                },500);
             });
-
+            function showPlate(){
+                $(gifId).children('.mark_pos').fadeOut();
+                $(gifId).children('.mark_neg').fadeOut();
+                $(gifId).children('.heroes-plate').fadeIn();
+                $(gifId).children('.heroes-plate').delay(3000).fadeOut(300,function(){heroBtnId = true;});
+            }
             heroesGifId = heroesGifId + 1;
             $(this).attr('mouse-down',true);
         }
-        
-    } else if(heroesGifId == 5){
-        $('.heroes-gif-cont').fadeOut();
-        $('#heroes-share').fadeIn();
+
     }
+    
+});
+$('#btn-result').on(MOUSE_DOWN,function(){
+    $('.heroes-gif-cont').fadeOut();
+    $('#heroes-share').fadeIn();
 });
 
+function scrollToDiv(e){
+  var o = $(e).offset();
+  var ot = o.top;
+  var ts = ot;
+  $('body,html').stop().animate({ scrollTop: ts }, 500);
+   return false;
+}
 
-		
+$("#toBlock1").on(MOUSE_DOWN,function(){return scrollToDiv('.block1')});
+$("#toBlock2").on(MOUSE_DOWN,function(){return scrollToDiv('.block2')});
+$("#toBlock3").on(MOUSE_DOWN,function(){return scrollToDiv('.block3')});
+$("#toBlock4").on(MOUSE_DOWN,function(){return scrollToDiv('.block4')});
+$("#toBlock5").on(MOUSE_DOWN,function(){return scrollToDiv('.block5')});
+
+
+//return scrollToDiv('.block5')
 		

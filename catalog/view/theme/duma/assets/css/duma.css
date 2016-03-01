@@ -8198,8 +8198,8 @@ Modules
 
 @media (max-width: 1199px) {
   .module__map {
-    -webkit-transform: scale(0.7) translate(90%, 0px);
-    -moz-transform: scale(0.7) translate(90%, 0px);
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
     left: -30px; }
   .module__list_party {
     font-size: 12px;
@@ -8209,8 +8209,8 @@ Modules
 
 @media (max-width: 991px) {
   .module__map {
-    -webkit-transform: scale(0.5) translate(90%, 0px);
-    -moz-transform: scale(0.5) translate(90%, 0px);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
     left: -70px; }
   .module__list_party {
     font-size: 12px;
@@ -8236,15 +8236,14 @@ Modules
     #map-box #wrap-map {
       z-index: 11;
       margin-bottom: 20px;
-      width: 300%;
       position: relative; }
       #map-box #wrap-map .module__map {
         -webkit-transform: scale(0.45);
         -moz-transform: scale(0.45);
         margin: 0 auto;
         position: relative;
-        left: -30px;
-        top: -140px; }
+        left: -70px;
+        top: -180px; }
       #map-box #wrap-map .module__list_party {
         padding-left: 90px; }
       #map-box #wrap-map .module__title-party {
@@ -8731,7 +8730,8 @@ Modules
   position: relative;
   margin: 17px auto;
   -webkit-transition: all ease-in-out 0.3s;
-  transition: all ease-in-out 0.3s; }
+  transition: all ease-in-out 0.3s;
+  cursor: pointer; }
   .heroes-gif span {
     display: block;
     margin: 0 auto;
@@ -8750,6 +8750,23 @@ Modules
     height: 157px;
     top: 0px;
     left: 0px; }
+
+#btn-result {
+  display: none;
+  position: relative;
+  width: 148px;
+  height: 148px;
+  margin: 0 auto;
+  cursor: pointer; }
+  #btn-result .border-img {
+    border: 4px #000 solid;
+    border-radius: 157px;
+    content: "";
+    position: absolute;
+    width: 152px;
+    height: 152px;
+    top: -2px;
+    left: -2px; }
 
 .heroes-gif-cont {
   padding-left: 5px;
@@ -8771,12 +8788,14 @@ Modules
   top: 116px;
   width: 43px;
   height: 42px;
-  display: none; }
+  display: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; }
 
-.mark_pos.mark_active {
+.mark_pos:hover {
   background-image: url("../images/mark_pos_a.png"); }
 
-.mark_neg.mark_active {
+.mark_neg:hover {
   background-image: url("../images/mark_neg_a.png"); }
 
 .mark_neg {
@@ -8843,6 +8862,172 @@ Modules
   width: 300px;
   margin: 65px auto;
   margin-bottom: 40px; }
+
+.plate {
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; }
+  .plate .plate-hover {
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    opacity: 0; }
+  .plate .plate-title {
+    position: absolute;
+    width: 100%;
+    top: 15px;
+    left: 0;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.5); }
+    .plate .plate-title img {
+      margin-left: 5px; }
+  .plate .plate-sub {
+    position: absolute;
+    width: 100%;
+    top: 155px;
+    left: 0;
+    text-transform: uppercase;
+    font-size: 34px;
+    color: rgba(255, 255, 255, 0.5); }
+
+.plate:nth-child(2):hover {
+  -webkit-transform: scale(1.1) translate(5%, 0px);
+          transform: scale(1.1) translate(5%, 0px); }
+
+.plate:nth-child(4):hover {
+  -webkit-transform: scale(1.1) translate(-5%, 0px);
+          transform: scale(1.1) translate(-5%, 0px); }
+
+.plate:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  z-index: 10; }
+  .plate:hover .plate-hover {
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    background: #f1e767;
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #f1e767), color-stop(100%, #feb645));
+    background: -webkit-radial-gradient(center, ellipse cover, #f1e767 0%, #feb645 100%);
+    background: -webkit-radial-gradient(center ellipse, #f1e767 0%, #feb645 100%);
+    background: radial-gradient(ellipse at center, #f1e767 0%, #feb645 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=1 ); }
+
+.btn-plate {
+  border: 2px dashed #fff;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 60px;
+  margin-bottom: 80px; }
+  .btn-plate .btn-plate-title span {
+    font-style: italic; }
+
+.before-plate {
+  margin-top: 70px;
+  margin-bottom: 36px; }
+
+.first-block-before {
+  display: block;
+  width: 100%;
+  height: 1px; }
+
+.first-block .module__subtitle {
+  margin-top: 80px;
+  line-height: normal; }
+
+.big-pos {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url("../images/big-pos.png");
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.big-neg {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url("../images/big-neg.png");
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.test3-title {
+  background: url(../images/test3_text.png) center no-repeat;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 61px;
+  margin-bottom: 20px; }
+  .test3-title h1 {
+    padding-top: 10px; }
+
+.res-img {
+  width: 70px; }
+
+.res_party_plate {
+  position: absolute;
+  width: 40px;
+  top: 0;
+  left: 60px; }
+
+.result-row {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 10px; }
+
+.result-row.first-row .result-row-numb span {
+  width: 88px;
+  height: 88px;
+  border: 1px solid #fff;
+  display: block;
+  text-align: center;
+  font-size: 50px; }
+
+.result-row.first-row .res-img {
+  width: 96px; }
+
+.result-row.first-row .res_party_plate {
+  position: absolute;
+  width: 54px;
+  top: 0;
+  left: 82px; }
+
+.result-row.first-row .res-pos-val {
+  font-weight: bold; }
+
+.result-row.first-row .res-neg-val {
+  font-weight: bold; }
+
+.result-row-numb span {
+  width: 73px;
+  height: 73px;
+  border: 1px solid #fff;
+  display: block;
+  text-align: center;
+  font-size: 40px; }
+
+.result-name {
+  font-size: 22px;
+  margin-top: 15px; }
+
+.res-pos-val {
+  text-align: center;
+  font-size: 22px; }
+
+.res-neg-val {
+  text-align: center;
+  font-size: 22px; }
 
 .module__title-test {
   background: url("../images/test/test-title.png") no-repeat center;
