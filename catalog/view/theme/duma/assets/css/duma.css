@@ -8773,7 +8773,8 @@ Modules
   padding-right: 5px; }
 
 .first-block {
-  background-color: #000; }
+  background-color: #000;
+  border-bottom: 3px solid #fff; }
 
 .module-subtitle-big {
   font-size: 46px;
@@ -8788,9 +8789,7 @@ Modules
   top: 116px;
   width: 43px;
   height: 42px;
-  display: none;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s; }
+  display: none; }
 
 .mark_pos:hover {
   background-image: url("../images/mark_pos_a.png"); }
@@ -9032,7 +9031,7 @@ Modules
 .rating_heroes {
   color: #fff; }
 
-.rating_heroes:hover, .rating_heroes:active {
+.rating_heroes:hover, .rating_heroes:active, .rating_heroes:visited, .rating_heroes:link {
   color: #fff; }
 
 .module__title-test {
