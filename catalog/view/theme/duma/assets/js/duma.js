@@ -13099,13 +13099,72 @@ $('.btn_again').on(MOUSE_DOWN,function(){
 });
 
 /**********************************************/
+
+var arrHeroes = ['<div class="heroes-gif"><img class="boom" src="image/catalog/home/exp_1.gif" width="157"><img class="hero-img" src="image/catalog/gif/ageev.gif" width="157" alt=""><div class="border-img"></div><img src="image/catalog/home/plate_sr.png" alt="" class="hero_party_plate"><div class="mark_pos"></div> <div class="mark_neg"></div><div class="heroes-plate heroes-yellow"><span>Трудовую деятельность начал в&nbsp;19&nbsp;лет. Работал юристом в&nbsp;волгоградской юридической фирме. Через три года создал и&nbsp;возглавил собственную юридическую фирму.</span><span class="heroes-gif-name">Агеев Александр Александрович</span></div></div>',
+                 '<div class="heroes-gif"><img class="boom" src="image/catalog/home/exp_2.gif" width="157"><img class="hero-img" src="image/catalog/gif/anisimov.gif" width="157" alt=""><div class="border-img"></div><img src="image/catalog/home/plate_ldpr.png" alt="" class="hero_party_plate"><div class="mark_pos"></div> <div class="mark_neg"></div><div class="heroes-plate heroes-blue"><span>Внес патриотический законопроект &laquo;О&nbsp;мерах противодействия санкциям иностранных государств в&nbsp;области культуры и&nbsp;о&nbsp;внесении изменений в&nbsp;Кодекс Российской Федерации об&nbsp;административных правонарушениях&raquo;.</span><span class="heroes-gif-name">Анисимов Егор Игоревич </span></div></div>',
+                 '<div class="heroes-gif"><img class="boom" src="image/catalog/home/exp_3.gif" width="157"><img class="hero-img" src="image/catalog/gif/dorovin.gif" width="157" alt=""><div class="border-img"></div><img src="image/catalog/home/plate_kprf.png" alt="" class="hero_party_plate"><div class="mark_pos"></div> <div class="mark_neg"></div><div class="heroes-plate heroes-red"><span>в&nbsp;8-ом таксомоторном парке г.Москвы работал водителем.</span><span class="heroes-gif-name">Доровин Евгений Владимирович </span></div></div>',
+                 '<div class="heroes-gif"><img class="boom" src="image/catalog/home/exp_4.gif" width="157"><img class="hero-img" src="image/catalog/gif/belykh.gif" width="157" alt=""><div class="border-img"></div><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="mark_pos"></div> <div class="mark_neg"></div><div class="heroes-plate heroes-white"><span>С&nbsp;1985 года работала в&nbsp;школе &#8470;&nbsp;235&nbsp;в должности учителя начальных классов, с&nbsp;1988 года&nbsp;&mdash; учитель математики.</span><span class="heroes-gif-name">Белых Ирина Викторовна</span></div></div>',
+                 '<div class="heroes-gif"><img class="boom" src="image/catalog/home/exp_5.gif" width="157"><img class="hero-img" src="image/catalog/gif/gonchar.gif" width="157" alt=""><div class="border-img"></div><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="mark_pos"></div> <div class="mark_neg"></div><div class="heroes-plate heroes-white"><span>Работал в&nbsp;должности инженера радиозавода.</span><span class="heroes-gif-name">Гончар Николай Николаевич </span></div></div>',
+                 '<div class="heroes-gif"><img class="boom" src="image/catalog/home/exp_6.gif" width="157"><img class="hero-img" src="image/catalog/gif/isaev.gif" width="157" alt=""><div class="border-img"></div><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="mark_pos"></div> <div class="mark_neg"></div><div class="heroes-plate heroes-white"><span>&laquo;Мелкие твари&nbsp;&mdash; расслабьтесь, вы&nbsp;нам безразличны. А&nbsp;вот конкретный редактор и&nbsp;автор ответят жёстко&raquo;.</span><span class="heroes-gif-name">Исаев Андрей Константинович </span></div></div>',
+                 '<div class="heroes-gif"><img class="boom" src="image/catalog/home/exp_7.gif" width="157"><img class="hero-img" src="image/catalog/gif/havanskaya.gif" width="157" alt=""><div class="border-img"></div><img src="image/catalog/home/plate_sr.png" alt="" class="hero_party_plate"><div class="mark_pos"></div> <div class="mark_neg"></div><div class="heroes-plate heroes-yellow"><span>&laquo;Для меня СПС-овцы были слишком крутые. Я&nbsp;Чубайса как организатора очень уважаю, но&nbsp;это человек, который по&nbsp;трупам к&nbsp;светлому будущему&nbsp;&mdash; к&nbsp;рынку. Пусть там все вымрут, но&nbsp;мы&nbsp;своего добьемся. Я&nbsp;считаю, что игнорировать социальную составляющую&nbsp;&mdash; это рубить сук, на&nbsp;котором сидишь..&raquo;</span><span class="heroes-gif-name">Хованская Галина Петровна</span></div></div>',
+                 '<div class="heroes-gif"><img class="boom" src="image/catalog/home/exp_1.gif" width="157"><img class="hero-img" src="image/catalog/gif/sobolev.gif" width="157" alt=""><div class="border-img"></div><img src="image/catalog/home/plate_ldpr.png" alt="" class="hero_party_plate"><div class="mark_pos"></div> <div class="mark_neg"></div><div class="heroes-plate heroes-blue"><span>Окончил Русский институт управления&nbsp;г. Москва (специальность&nbsp;&mdash; юриспруденция). Доход 3&nbsp;875 998,67&nbsp;руб. Супруга: 930 000,00&nbsp;руб.</span><span class="heroes-gif-name">Соболев Виктор Васильевич </span></div></div>',
+                 '<div class="heroes-gif"><img class="boom" src="image/catalog/home/exp_2.gif" width="157"><img class="hero-img" src="image/catalog/gif/kumin.gif" width="157" alt=""><div class="border-img"></div><img src="image/catalog/home/plate_kprf.png" alt="" class="hero_party_plate"><div class="mark_pos"></div> <div class="mark_neg"></div><div class="heroes-plate heroes-red"><span>Доход в&nbsp;2014&nbsp;году: 4&nbsp;783 056,60&nbsp;руб. В&nbsp;бюджет Челябинской области и&nbsp;Москвы задолжал 118&nbsp;295&nbsp;рублей. (По&nbsp;состоянию на&nbsp;Март, 2015&nbsp;года).</span><span class="heroes-gif-name">Кумин Вадим Валентинович </span></div></div>',
+                 '<div class="heroes-gif"><img class="boom" src="image/catalog/home/exp_3.gif" width="157"><img class="hero-img" src="image/catalog/gif/Kozhevnikova.gif" width="157" alt=""><div class="border-img"></div><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="mark_pos"></div> <div class="mark_neg"></div><div class="heroes-plate heroes-white"><span>&laquo;Регионы разные, люди в&nbsp;них живут разные. Чтобы увести молодежь с&nbsp;улицы, подальше от&nbsp;криминала, от&nbsp;пьянства, наркотиков, мы&nbsp;должны им&nbsp;предложить варианты...&raquo;</span><span class="heroes-gif-name">Кожевникова Мария Александровна </span></div></div>',
+                 '<div class="heroes-gif"><img class="boom" src="image/catalog/home/exp_4.gif" width="157"><img class="hero-img" src="image/catalog/gif/nikonov.gif" width="157" alt=""><div class="border-img"></div><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="mark_pos"></div> <div class="mark_neg"></div><div class="heroes-plate heroes-white"><span>Был заведующим кафедрой истории и&nbsp;политологии. Доход в&nbsp;2014&nbsp;году: 6&nbsp;963 040,21&nbsp;руб.</span><span class="heroes-gif-name">Никонов Вячеслав Алексеевич </span></div></div>',
+                 '<div class="heroes-gif"><img class="boom" src="image/catalog/home/exp_5.gif" width="157"><img class="hero-img" src="image/catalog/gif/kuzin.gif" width="157" alt=""><div class="border-img"></div><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="mark_pos"></div> <div class="mark_neg"></div><div class="heroes-plate heroes-white"><span>Работал старшим пионерским вожатым и&nbsp;старшим педагогом пионерского лагеря. Доход в&nbsp;2014&nbsp;году: 4&nbsp;122 740,78&nbsp;руб.</span><span class="heroes-gif-name">Кузин Сергей Павлович</span></div></div>',
+                 '<div class="heroes-gif"><img class="boom" src="image/catalog/home/exp_6.gif" width="157"><img class="hero-img" src="image/catalog/gif/tarnavsky.gif" width="157" alt=""><div class="border-img"></div><img src="image/catalog/home/plate_sr.png" alt="" class="hero_party_plate"><div class="mark_pos"></div> <div class="mark_neg"></div><div class="heroes-plate heroes-yellow"><span>Принимал участие в&nbsp;работе экспертных советов, занимающихся реформированием законодательства в&nbsp;сфере пенсионного и&nbsp;социального обеспечения Российской Федерации. </span><span class="heroes-gif-name">Тарнавский Александр Георгиевич </span></div></div>',
+                 '<div class="heroes-gif"><img class="boom" src="image/catalog/home/exp_7.gif" width="157"><img class="hero-img" src="image/catalog/gif/svincov.gif" width="157" alt=""><div class="border-img"></div><img src="image/catalog/home/plate_ldpr.png" alt="" class="hero_party_plate"><div class="mark_pos"></div> <div class="mark_neg"></div><div class="heroes-plate heroes-blue"><span>В&nbsp;2000 году с&nbsp;отличием окончил строительный факультет Московского государственного университета природообустройства. Более 10&nbsp;раз участвовал в&nbsp;выборах депутатов разного уровня.</span><span class="heroes-gif-name">Свинцов Андрей Николаевич </span></div></div>',
+                 '<div class="heroes-gif"><img class="boom" src="image/catalog/home/exp_1.gif" width="157"><img class="hero-img" src="image/catalog/gif/smolin.gif" width="157" alt=""><div class="border-img"></div><img src="image/catalog/home/plate_kprf.png" alt="" class="hero_party_plate"><div class="mark_pos"></div> <div class="mark_neg"></div><div class="heroes-plate heroes-red"><span>Любимые литературные образы в&nbsp;политике&nbsp;&mdash; сказка Андерсена о&nbsp;двух лягушках в&nbsp;сметане или &laquo;миф о&nbsp;Сизифе&raquo; Альбера Камю.</span><span class="heroes-gif-name">Смолин Олег Николаевич </span></div></div>',
+                 '<div class="heroes-gif"><img class="boom" src="image/catalog/home/exp_2.gif" width="157"><img class="hero-img" src="image/catalog/gif/panina.gif" width="157" alt=""><div class="border-img"></div><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="mark_pos"></div> <div class="mark_neg"></div><div class="heroes-plate heroes-white"><span>Небоскреб будет располагаться в&nbsp;10&nbsp;метрах от&nbsp;муниципального заповедника с&nbsp;одной стороны, в&nbsp;15&nbsp;метрах от&nbsp;АЗС с&nbsp;другой стороны, под небоскребом проходит газопровод, а&nbsp;под газопроводом подземная река. Доход в&nbsp;2014&nbsp;году: 29&nbsp;324 799,91&nbsp;руб.</span><span class="heroes-gif-name">Панина Елена Владимировна </span></div></div>',
+                 '<div class="heroes-gif"><img class="boom" src="image/catalog/home/exp_3.gif" width="157"><img class="hero-img" src="image/catalog/gif/resin.gif" width="157" alt=""><div class="border-img"></div><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="mark_pos"></div> <div class="mark_neg"></div><div class="heroes-plate heroes-white"><span>Только из&nbsp;одного кабинета в&nbsp;здании можно уйти по&nbsp;черной лестнице, избегая ненужной встречи. Как ни&nbsp;странно, это кабинет командующего &laquo;танковыми войсками&raquo; строительного комплекса Москвы. Доход в&nbsp;размере более 44,2 млн рублей.</span><span class="heroes-gif-name">Ресин Владимир Иосифович</span></div></div>',
+                 '<div class="heroes-gif"><img class="boom" src="image/catalog/home/exp_4.gif" width="157"><img class="hero-img" src="image/catalog/gif/volkov.gif" width="157" alt=""><div class="border-img"></div><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="mark_pos"></div> <div class="mark_neg"></div><div class="heroes-plate heroes-white"><span>Доход за&nbsp;2014&nbsp;год: 3, 9&nbsp;млн. рублей. В&nbsp;собственности: квартира 120,5 квартира (общая долевая собственность, 1/2) 165,2 машиноместо 19,5.</span><span class="heroes-gif-name">Волков Данил Владимирович </span></div></div>',
+                 '<div class="heroes-gif"><img class="boom" src="image/catalog/home/exp_5.gif" width="157"><img class="hero-img" src="image/catalog/gif/potapov.gif" width="157" alt=""><div class="border-img"></div><img src="image/catalog/home/plate_kprf.png" alt="" class="hero_party_plate"><div class="mark_pos"></div> <div class="mark_neg"></div><div class="heroes-plate heroes-red"><span>Работал на&nbsp;крупном предприятии в&nbsp;области создания ракетной техники на&nbsp;инженерных должностях.</span><span class="heroes-gif-name">Потапов Александр Владимирович </span></div></div>',
+                 '<div class="heroes-gif"><img class="boom" src="image/catalog/home/exp_6.gif" width="157"><img class="hero-img" src="image/catalog/gif/rashkin.gif" width="157" alt=""><div class="border-img"></div><img src="image/catalog/home/plate_kprf.png" alt="" class="hero_party_plate"><div class="mark_pos"></div> <div class="mark_neg"></div><div class="heroes-plate heroes-red"><span>&laquo;Пригласили на&nbsp;турнир по&nbsp;пулевой и&nbsp;стендовой стрельбе среди депутатов Думы. Согласился, в&nbsp;качестве мишени хочу Путина&raquo;.</span><span class="heroes-gif-name">Рашкин Валерий Федорович</span></div></div>',
+                 '<div class="heroes-gif"><img class="boom" src="image/catalog/home/exp_7.gif" width="157"><img class="hero-img" src="image/catalog/gif/rodin.gif" width="157" alt=""><div class="border-img"></div><img src="image/catalog/home/plate_kprf.png" alt="" class="hero_party_plate"><div class="mark_pos"></div> <div class="mark_neg"></div><div class="heroes-plate heroes-red"><span>Если&nbsp;бы не&nbsp;я, то&nbsp;и&nbsp;Крым до&nbsp;сих пор был&nbsp;бы не&nbsp;нашим, и&nbsp;Новороссия давно&nbsp;бы сдалась полчищам укров.</span><span class="heroes-gif-name">Родин Владимир Романович </span></div></div>',
+                 '<div class="heroes-gif"><img class="boom" src="image/catalog/home/exp_1.gif" width="157"><img class="hero-img" src="image/catalog/gif/vyborny.gif" width="157" alt=""><div class="border-img"></div><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="mark_pos"></div> <div class="mark_neg"></div><div class="heroes-plate heroes-white"><span>Работал следователем военной прокуратуры и&nbsp;старшим военным прокурором.</span><span class="heroes-gif-name">Выборный Анатолий Борисович </span></div></div>',
+                 '<div class="heroes-gif"><img class="boom" src="image/catalog/home/exp_2.gif" width="157"><img class="hero-img" src="image/catalog/gif/zharkov.gif" width="157" alt=""><div class="border-img"></div><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="mark_pos"></div> <div class="mark_neg"></div><div class="heroes-plate heroes-white"><span>Окончил Абхазский Государственный Университет имени А.М. Горького, специальность экономист, бухгалтерский учет и&nbsp;аудит. Доход в&nbsp;2014&nbsp;году: 49&nbsp;114 904,23&nbsp;руб. Супруга: 2&nbsp;000 000,00&nbsp;руб.</span><span class="heroes-gif-name">Жарков Антон Викторович </span></div></div>',
+                 '<div class="heroes-gif"><img class="boom" src="image/catalog/home/exp_3.gif" width="157"><img class="hero-img" src="image/catalog/gif/antoshkin.gif" width="157" alt=""><div class="border-img"></div><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="mark_pos"></div> <div class="mark_neg"></div><div class="heroes-plate heroes-white"><span>Принимал участие в&nbsp;конфликтах на&nbsp;советско-китайской границе (совершал разведывательные вылеты вдоль границы, отслеживая перемещения китайских войск).</span><span class="heroes-gif-name">Антошкин Николай Тимофеевич </span></div></div>',
+                 '<div class="heroes-gif"><img class="boom" src="image/catalog/home/exp_4.gif" width="157"><img class="hero-img" src="image/catalog/gif/zheleznyk.gif" width="157" alt=""><div class="border-img"></div><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="mark_pos"></div> <div class="mark_neg"></div><div class="heroes-plate heroes-white"><span>Был заместителем по&nbsp;политической части командира учебной роты газотурбинистов и&nbsp;мотористов дизельных установок.</span><span class="heroes-gif-name">Железняк Сергей Владимирович </span></div></div>',
+                 '<div class="heroes-gif"><img class="boom" src="image/catalog/home/exp_5.gif" width="157"><img class="hero-img" src="image/catalog/gif/Zvagelski.gif" width="157" alt=""><div class="border-img"></div><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="mark_pos"></div> <div class="mark_neg"></div><div class="heroes-plate heroes-white"><span>После окончания института прошел путь от&nbsp;инженера до&nbsp;заместителя начальника управления &laquo;Главмосводоканал&raquo;. Доход в&nbsp;2014&nbsp;году: 3&nbsp;882 888,09&nbsp;руб.</span><span class="heroes-gif-name">Звагельский Виктор Фридрихович </span></div></div>',
+                 '<div class="heroes-gif"><img class="boom" src="image/catalog/home/exp_1.gif" width="157"><img class="hero-img" src="image/catalog/gif/krupennikov.gif" width="157" alt=""><div class="border-img"></div><img src="image/catalog/home/plate_edros.png" alt="" class="hero_party_plate"><div class="mark_pos"></div> <div class="mark_neg"></div><div class="heroes-plate heroes-white"><span>&laquo;Сейчас я&nbsp;могу дойти из&nbsp;кухни до&nbsp;комнаты за&nbsp;минуту, раньше у&nbsp;меня на&nbsp;это уходило 7-10&nbsp;минут.&raquo; Доход в&nbsp;2014&nbsp;году: 10&nbsp;805 641,52&nbsp;руб. Супруга: 617 108,55&nbsp;руб.</span><span class="heroes-gif-name">Крупенников Владимир Александрович</span></div></div>'
+                ];
+
+
+function ArrayShuffle(a) {
+  var d,
+  c,
+  b = a.length;
+   while (b) {
+    c = Math.floor(Math.random() * b);
+    d = a[--b];
+    a[b] = a[c];
+    a[c] = d
+   }
+   return a;
+}
+
+function showHeroes(){
+    ArrayShuffle(arrHeroes);
+    for (i = 0; i < 27; i++){
+        if(i == 24){
+            $('#heroes-gif-cont').append('<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-lg-offset-3">'+arrHeroes[i]+'</div>');
+        }else{
+            $('#heroes-gif-cont').append('<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">'+arrHeroes[i]+'</div>');
+        }
+    }
+    var afterArr = '<div class="clear"></div><div class="col-xs-12 text-center"><div id="btn-result"><img src="image/catalog/home/result.gif" alt=""><a href="/rating_heroes"><div class="border-img"></div><a></div></div>';
+    $('#heroes-gif-cont').append(afterArr);
+    
+}
+showHeroes();
+
 var heroVal = 0;
 var heroesGifId = 0;
 var heroBtnId = true;
 $(".heroes-gif").attr('mouse-down',false);
 $(".heroes-gif").on(MOUSE_DOWN,function(){
     console.log('heroBtnId',heroBtnId);
-    if (heroBtnId == true){
+    if (heroBtnId == true && $(this).attr('mouse-down') == 'false'){
         heroVal = heroVal + 1;
         if(heroVal == 1){
             $('#btn-result').fadeIn();
@@ -13151,7 +13210,13 @@ $(".heroes-gif").on(MOUSE_DOWN,function(){
                 $(gifId).children('.mark_pos').fadeOut();
                 $(gifId).children('.mark_neg').fadeOut();
                 $(gifId).children('.heroes-plate').fadeIn();
-                $(gifId).children('.heroes-plate').delay(3000).fadeOut(300,function(){heroBtnId = true;});
+                $(gifId).children('.heroes-plate').delay(3000).fadeOut(300,function(){
+                    $(gifId).children('.border-img').on(MOUSE_DOWN,function(){
+                        $(gifId).children('.heroes-plate').fadeIn();
+                        $(gifId).children('.heroes-plate').delay(3000).fadeOut();
+                    });
+                    heroBtnId = true;
+                });
             }
             heroesGifId = heroesGifId + 1;
             $(this).attr('mouse-down',true);
@@ -13160,10 +13225,10 @@ $(".heroes-gif").on(MOUSE_DOWN,function(){
     }
     
 });
-$('#btn-result').on(MOUSE_DOWN,function(){
-    $('.heroes-gif-cont').fadeOut();
-    $('#heroes-share').fadeIn();
-});
+//$('#btn-result').on(MOUSE_DOWN,function(){
+//    $('.heroes-gif-cont').fadeOut();
+//    $('#heroes-share').fadeIn();
+//});
 
 function scrollToDiv(e){
   var o = $(e).offset();

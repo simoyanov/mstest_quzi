@@ -9,7 +9,7 @@
               <a href="/"><img src="image/catalog/home/logo.png" alt="Дума 2016" class="module__logo-image" ></a>
             </div>
             <div class="col-xs-6 col-sm-5 col-sm-offset-4 col-md-5 col-md-offset-5 col-lg-4 col-lg-offset-6">
-                <span class="module__top_text open-sans-exboltit">567 350 <span>горят сердцами</span>
+                <span class="module__top_text open-sans-exboltit"> <span>Поучаствовало в играх: </span>567 350
                 </span>
             </div>
             <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
@@ -107,7 +107,8 @@
             <div class="module-subtitle-big open-sans-exbolt text-center">герои: как они есть!</div>
         </div>
         </div>
-        <div class="row heroes-gif-cont">
+        <div class="row heroes-gif-cont" id="heroes-gif-cont">
+<!--
                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
                    <div class="heroes-gif"><img class="boom" src="image/catalog/home/exp_1.gif" width="157">
                    <img class="hero-img" src="image/catalog/gif/ageev.gif" width="157" alt="">
@@ -248,6 +249,8 @@
                    &laquo;Сейчас я&nbsp;могу дойти из&nbsp;кухни до&nbsp;комнаты за&nbsp;минуту, раньше у&nbsp;меня на&nbsp;это уходило 7-10&nbsp;минут.&raquo; Доход в&nbsp;2014&nbsp;году: 10&nbsp;805 641,52&nbsp;руб. Супруга: 617 108,55&nbsp;руб.
                    </span><span class="heroes-gif-name">Крупенников Владимир Александрович</span></div></div>
                </div>
+-->
+<!--
                <div class="clear"></div>
                <div class="col-xs-12 text-center">
                   <div id="btn-result">
@@ -255,6 +258,7 @@
                        <div class='border-img'></div>
                   </div>
                 </div>
+-->
            </div>
            <div class="row" id="heroes-share">
                <div class="center-block text-center">
