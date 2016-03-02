@@ -9,7 +9,7 @@
               <a href="/"><img src="image/catalog/home/logo.png" alt="Дума 2016" class="module__logo-image" ></a>
             </div>
             <div class="col-xs-6 col-sm-5 col-sm-offset-4 col-md-5 col-md-offset-5 col-lg-4 col-lg-offset-6">
-                <span class="module__top_text open-sans-exboltit">567 350 <span>горят сердцами</span>
+                <span class="module__top_text open-sans-exboltit"><span>Поучаствовало в играх: </span>567 350
                 </span>
             </div>
             <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
@@ -52,7 +52,7 @@
             </div>
             <div class="col-xs-6 result-name"><span class="open-sans-exboltit">агеев александр александрович</span></div>
             <div class="col-xs-1 res-pos-val">1132</div>
-            <div class="col-xs-1 res-neg-val">536</div>
+            <div class="col-xs-1 res-neg-val">78</div>
         </div>
         <div class="col-xs-12 col-lg-10 col-lg-offset-1 result-row">
             <div class="col-xs-1"><div class="result-row-numb open-sans-exboltit"><span>2</span></div></div>
@@ -61,8 +61,8 @@
                 <img src="image/catalog/home/plate_edros.png" alt="" class="res_party_plate">
             </div>
             <div class="col-xs-6 result-name"><span class="open-sans-exboltit">Кожевникова Мария Александровна</span></div>
-            <div class="col-xs-1 res-pos-val">1132</div>
-            <div class="col-xs-1 res-neg-val">536</div>
+            <div class="col-xs-1 res-pos-val">901</div>
+            <div class="col-xs-1 res-neg-val">34</div>
         </div>
         <div class="col-xs-12 col-lg-10 col-lg-offset-1 result-row">
             <div class="col-xs-1"><div class="result-row-numb open-sans-exboltit"><span>3</span></div></div>
@@ -71,8 +71,8 @@
                 <img src="image/catalog/home/plate_kprf.png" alt="" class="res_party_plate">
             </div>
             <div class="col-xs-6 result-name"><span class="open-sans-exboltit">Доровин Евгений Владимирович</span></div>
-            <div class="col-xs-1 res-pos-val">1132</div>
-            <div class="col-xs-1 res-neg-val">536</div>
+            <div class="col-xs-1 res-pos-val">813</div>
+            <div class="col-xs-1 res-neg-val">34</div>
         </div>
         <div class="col-xs-12 col-lg-10 col-lg-offset-1 result-row">
             <div class="col-xs-1"><div class="result-row-numb open-sans-exboltit"><span>4</span></div></div>
@@ -81,8 +81,8 @@
                 <img src="image/catalog/home/plate_ldpr.png" alt="" class="res_party_plate">
             </div>
             <div class="col-xs-6 result-name"><span class="open-sans-exboltit">Соболев Виктор Васильевич</span></div>
-            <div class="col-xs-1 res-pos-val">1132</div>
-            <div class="col-xs-1 res-neg-val">536</div>
+            <div class="col-xs-1 res-pos-val">774</div>
+            <div class="col-xs-1 res-neg-val">78</div>
         </div>
         <div class="col-xs-12 col-lg-10 col-lg-offset-1 result-row">
             <div class="col-xs-1"><div class="result-row-numb open-sans-exboltit"><span>5</span></div></div>
@@ -91,8 +91,8 @@
                 <img src="image/catalog/home/plate_edros.png" alt="" class="res_party_plate">
             </div>
             <div class="col-xs-6 result-name"><span class="open-sans-exboltit">Железняк Сергей Владимирович</span></div>
-            <div class="col-xs-1 res-pos-val">1132</div>
-            <div class="col-xs-1 res-neg-val">536</div>
+            <div class="col-xs-1 res-pos-val">765</div>
+            <div class="col-xs-1 res-neg-val">89</div>
         </div>
         <div class="col-xs-12 col-lg-10 col-lg-offset-1 result-row">
             <div class="col-xs-1"><div class="result-row-numb open-sans-exboltit"><span>6</span></div></div>
@@ -101,8 +101,8 @@
                 <img src="image/catalog/home/plate_kprf.png" alt="" class="res_party_plate">
             </div>
             <div class="col-xs-6 result-name"><span class="open-sans-exboltit">Смолин Олег Николаевич</span></div>
-            <div class="col-xs-1 res-pos-val">1132</div>
-            <div class="col-xs-1 res-neg-val">536</div>
+            <div class="col-xs-1 res-pos-val">704</div>
+            <div class="col-xs-1 res-neg-val">130</div>
         </div>
           
 
@@ -113,8 +113,8 @@
                 <img src="image/catalog/home/plate_ldpr.png" alt="" class="res_party_plate">
             </div>
             <div class="col-xs-6 result-name"><span class="open-sans-exboltit">Анисимов Егор Игоревич</span></div>
-            <div class="col-xs-1 res-pos-val">1132</div>
-            <div class="col-xs-1 res-neg-val">536</div>
+            <div class="col-xs-1 res-pos-val">657</div>
+            <div class="col-xs-1 res-neg-val">135</div>
         </div>
 
          <div class="col-xs-12 col-lg-10 col-lg-offset-1 result-row">
@@ -124,19 +124,31 @@
                 <img src=" image/catalog/home/plate_edros.png" alt="" class="res_party_plate">
             </div>
             <div class="col-xs-6 result-name"><span class="open-sans-exboltit">Белых Ирина Викторовна</span></div>
-            <div class="col-xs-1 res-pos-val">1132</div>
-            <div class="col-xs-1 res-neg-val">536</div>
+            <div class="col-xs-1 res-pos-val">603</div>
+            <div class="col-xs-1 res-neg-val">167</div>
+        </div>
+           <div class="col-xs-12 col-lg-10 col-lg-offset-1 result-row">
+            <div class="col-xs-1"><div class="result-row-numb open-sans-exboltit"><span>9</span></div></div>
+            <div class="col-xs-2 col-xs-offset-1">
+                <img class="res-img" src="image/catalog/gif/gonchar.gif" width="100%" alt="">
+                <img src=" image/catalog/home/plate_edros.png" alt="" class="res_party_plate">
+            </div>
+            <div class="col-xs-6 result-name"><span class="open-sans-exboltit">Гончар Николай Николаевич</span></div>
+            <div class="col-xs-1 res-pos-val">567</div>
+            <div class="col-xs-1 res-neg-val">210</div>
         </div>
 
+               <div class="col-xs-12 col-lg-10 col-lg-offset-1 result-row">
+            <div class="col-xs-1"><div class="result-row-numb open-sans-exboltit"><span>10</span></div></div>
+            <div class="col-xs-2 col-xs-offset-1">
+                <img class="res-img" src="image/catalog/gif/isaev.gif" width="100%" alt="">
+                <img src=" image/catalog/home/plate_edros.png" alt="" class="res_party_plate">
+            </div>
+            <div class="col-xs-6 result-name"><span class="open-sans-exboltit">Исаев Андрей Константинович </span></div>
+            <div class="col-xs-1 res-pos-val">400</div>
+            <div class="col-xs-1 res-neg-val">245</div>
+        </div>
 
-
-
-
-             
-
-
-
-       
 
 
 
