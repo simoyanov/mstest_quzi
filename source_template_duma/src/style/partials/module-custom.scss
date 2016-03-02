@@ -1354,6 +1354,7 @@
 }
 .first-block{
     background-color: #000;
+    border-bottom: 3px solid #fff;
 }
 .module-subtitle-big{
     font-size: 46px;
@@ -1369,7 +1370,7 @@
   width: 43px;
   height: 42px;
     display: none;
-    transition: all 0.3s;
+    
 }
 .mark_pos:hover {
   background-image: url("../images/mark_pos_a.png");
@@ -1616,6 +1617,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', end
 .rating_heroes{
     color: #fff;
 }
-.rating_heroes:hover,.rating_heroes:active{
+.rating_heroes:hover,.rating_heroes:active,.rating_heroes:visited,.rating_heroes:link{
     color: #fff;
 }
