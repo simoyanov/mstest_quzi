@@ -410,7 +410,7 @@ function showHeroes(){
             $('#heroes-gif-cont').append('<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">'+arrHeroes[i]+'</div>');
         }
     }
-    var afterArr = '<div class="clear"></div><div class="col-xs-12 text-center"><div id="btn-result"><img src="image/catalog/home/result.gif" alt=""><a href="/rating_heroes"><div class="border-img"></div><a></div></div>';
+    var afterArr = '<div class="clear"></div><div class="col-xs-12 text-center"><div id="btn-result"><img src="image/catalog/home/result.gif" alt=""><div class="border-img"></div></div></div>';
     $('#heroes-gif-cont').append(afterArr);
     
 }
@@ -483,10 +483,10 @@ $(".heroes-gif").on(MOUSE_DOWN,function(){
     }
     
 });
-//$('#btn-result').on(MOUSE_DOWN,function(){
-//    $('.heroes-gif-cont').fadeOut();
-//    $('#heroes-share').fadeIn();
-//});
+$('#btn-result').on(MOUSE_DOWN,function(){
+    $('.heroes-gif-cont').fadeOut();
+    $('#heroes-share').fadeIn();
+});
 
 function scrollToDiv(e){
   var o = $(e).offset();

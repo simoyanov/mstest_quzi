@@ -9029,6 +9029,12 @@ Modules
   text-align: center;
   font-size: 22px; }
 
+.rating_heroes {
+  color: #fff; }
+
+.rating_heroes:hover, .rating_heroes:active {
+  color: #fff; }
+
 .module__title-test {
   background: url("../images/test/test-title.png") no-repeat center;
   background-size: contain;
