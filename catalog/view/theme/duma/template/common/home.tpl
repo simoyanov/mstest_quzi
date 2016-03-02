@@ -276,7 +276,7 @@
                                   
                               </div>
                               <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"><div class="center-block btn_again"></div></div>
-                              <div class="col-xs-12">узнать результаты голосований</div>
+                               <div class="col-xs-12"><a class="rating_heroes" href="/rating_heroes">узнать результаты голосований</a></div>
 <!--                               <a class="module__test__btn bnt_test1 open-sans-lite" id="test1" href="/quiz_znatok_duma">Проверить себя</a>-->
                                
                                <span></span>
