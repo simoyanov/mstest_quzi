@@ -55,3 +55,9 @@ RewriteRule ^([^?]*) index.php?_route_=$1 [L,QSA]
 # 7. disable open_basedir limitations
 # php_admin_value open_basedir none
 AddDefaultCharset UTF-8
+
+
+AuthType Basic   
+AuthName "Private zone. Only for administrator!" 
+AuthUserFile C:/WebServers/home/ms.loc/www/.htpasswd
+require valid-user 

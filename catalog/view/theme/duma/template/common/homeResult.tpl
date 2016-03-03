@@ -155,7 +155,7 @@
         
         
         <div class="col-xs-12">
-                <a class="btn-test3 open-sans-lite text-center" href="/quiz_oceni_zakon">На главную</a>
+                <a class="btn-test3 open-sans-lite text-center" href="/">На главную</a>
             </div>
         </div>
     </div>
