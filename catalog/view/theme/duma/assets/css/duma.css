@@ -7042,6 +7042,75 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
+/* Slider */
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent; }
+
+.slick-list {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0; }
+  .slick-list:focus {
+    outline: none; }
+  .slick-list.dragging {
+    cursor: pointer;
+    cursor: hand; }
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+.slick-track {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block; }
+  .slick-track:before, .slick-track:after {
+    content: "";
+    display: table; }
+  .slick-track:after {
+    clear: both; }
+  .slick-loading .slick-track {
+    visibility: hidden; }
+
+.slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  display: none; }
+  [dir="rtl"] .slick-slide {
+    float: right; }
+  .slick-slide img {
+    display: block; }
+  .slick-slide.slick-loading img {
+    display: none; }
+  .slick-slide.dragging img {
+    pointer-events: none; }
+  .slick-initialized .slick-slide {
+    display: block; }
+  .slick-loading .slick-slide {
+    visibility: hidden; }
+  .slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent; }
+
+.slick-arrow.slick-hidden {
+  display: none; }
+
 /*
 SCSS variables are information about icon's compiled state, stored under its original file name
 
@@ -9345,56 +9414,62 @@ Modules
   margin-top: 10px;
   position: relative;
   cursor: move;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border: 1px solid #fff;
   text-align: center;
-  background: #fff;
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-top: 15px;
-  padding-bottom: 10px;
   margin-top: 20px;
-  min-height: 270px; }
+  min-height: 190px; }
   @media (max-width: 991px) {
     .module__card {
       min-height: 300px; } }
   .module__card__img {
-    width: 100%; }
+    width: 100%;
+    border: 1px solid #fff;
+    height: 115px; }
   .module__card__text {
     padding-top: 15px;
     text-transform: uppercase;
-    font-size: 12px;
-    color: #000; }
+    font-size: 11px;
+    color: #fff; }
 
 .pt-20 {
   padding-top: 20px; }
 
 .module__card-inbox {
-  width: 100%; }
+  overflow: hidden; }
 
 .module__card-inbox > .module__card {
   min-height: 70px;
   padding-right: 0px;
   padding-left: 0px;
   padding-top: 0px;
-  margin-top: 10px; }
+  margin-top: 10px;
+  border-radius: 50%;
+  background: transparent;
+  box-shadow: none;
+  border: transparent; }
   .module__card-inbox > .module__card img {
-    display: none; }
+    height: 65px;
+    border-radius: 50%;
+    border: 4px solid #fff; }
   .module__card-inbox > .module__card p {
+    display: none;
     padding-top: 5px;
     padding-bottom: 5px;
     text-transform: uppercase;
     color: #000; }
 
+.card_mob_img {
+  height: 100%; }
+
 /*score box*/
 .module__score {
   text-align: center;
-  border: 2px solid #fff;
   margin-top: 50px;
   padding-bottom: 20px;
   min-height: 170px; }
 
 .module__score-title {
-  font-size: 16px;
+  font-size: 27px;
   color: #fff;
   text-transform: uppercase; }
 
@@ -9410,7 +9485,7 @@ Modules
 
 .module__score-box {
   margin-top: 10px;
-  min-height: 100px;
+  min-height: 200px;
   padding-top: 20px;
   padding-bottom: 20px;
   border: 1px dashed #fff;
@@ -9494,7 +9569,7 @@ Modules
   -webkit-transition: all 1s;
   transition: all 1s;
   opacity: 0;
-  z-index: 50; }
+  z-index: 9999; }
 
 .hover_scr_on_mob-left {
   position: fixed;
@@ -9523,7 +9598,7 @@ Modules
   -webkit-transition: all 1s;
   transition: all 1s;
   opacity: 0.8;
-  z-index: 50; }
+  z-index: 9999; }
 
 .hover_scr_on_mob-left__partia {
   border: 2px solid #fff;
@@ -9564,3 +9639,25 @@ Modules
     padding-top: 10px;
     margin-right: 15px;
     margin-left: 15px; }
+
+.carusel_card {
+  overflow-x: hidden;
+  height: 220px; }
+
+.carusel_control {
+  text-align: center;
+  padding-top: 62px; }
+
+.icon-left_contol {
+  cursor: pointer;
+  background: url("../images/test3/l_control.png") no-repeat center;
+  width: 25px;
+  height: 82px;
+  display: inline-block; }
+
+.icon-rithg_contol {
+  cursor: pointer;
+  background: url("../images/test3/r_control.png") no-repeat center;
+  width: 25px;
+  height: 82px;
+  display: inline-block; }

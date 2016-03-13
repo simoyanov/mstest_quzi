@@ -21,6 +21,7 @@
     "bootstrap-sass": "~3.3.6",
     "components-font-awesome": "~4.5.0",
     "jquery-ui": "~1.11.4",
-    "jquery.transit": "~0.9.12"
+    "jquery.transit": "~0.9.12",
+    "slick-carousel": "~1.5.9"
   }
 }

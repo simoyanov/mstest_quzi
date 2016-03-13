@@ -35,128 +35,218 @@
            <div class="row custom-pd pt-20 " >
                         <div class="col-xs-6 col-sm-3 col-md-2 col-md-offset-2 col-lg-2 col-lg-offset-2 text-center">
                             
-                                <img class="module__part__logo" src="assets/images/logopart/edin_ros.png" alt="">
-                                <div class="module__score--part open-sans-exboltit " id="ed_ros_score"></div>
+                                <img class="module__part__logo" src="assets/images/logopart/edin_ros.png" alt="" >
+                                <div class="module__score--part open-sans-exboltit " id="ed_ros_score">0</div>
                             
                         </div>
                         <div class=" col-xs-6 col-sm-3 col-md-2 col-lg-2 text-center">
                             
                                 <img class="module__part__logo" src="assets/images/logopart/ldpr.png" alt="">
-                                <div class="module__score--part open-sans-exboltit " id="ldpr_score"></div>
+                                <div class="module__score--part open-sans-exboltit " id="ldpr_score">0</div>
 
                         </div>
                         <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 text-center">
                              <img class="module__part__logo" src="assets/images/logopart/kprf.png" alt=""> 
-                             <div class="module__score--part open-sans-exboltit " id="kprf_score"></div>
+                             <div class="module__score--part open-sans-exboltit " id="kprf_score">0</div>
                         </div>
 
                         <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 text-center">
                               <img class="module__part__logo" src="assets/images/logopart/sprav_ros.png" alt="">
-                              <div class="module__score--part open-sans-exboltit " id="sp_ros_score"></div>
+                              <div class="module__score--part open-sans-exboltit " id="sp_ros_score">0</div>
                         </div>
                         
                     </div>    
                      <div class="row custom-pd  hidden-xs hidden-sm" id = "allScore" >
                            <div class=" col-md-4 col-lg-4">
                             <div class="module__score ">
-                                <h4 class="module__score-title open-sans-lite ">ДАВНО БЫЛО ПОРА</h4> 
+                                <h4 class="module__score-title open-sans-exboltit ">ДАВНО БЫЛО ПОРА</h4> 
                                 <div class="row module__score-box module-connect " id="excellent">
                                 </div>
                             </div>
                         </div>
                         <div class=" col-md-4 col-lg-4">
                             <div class="module__score ">
-                                <h4 class="module__score-title open-sans-lite ">ПРОШЛО МИМО МЕНЯ</h4> 
+                                <h4 class="module__score-title open-sans-exboltit ">ПРОШЛО МИМО МЕНЯ</h4> 
                                 <div class="row module__score-box module-connect " id="well">
                                 </div>
                             </div>
                         </div>
                         <div class=" col-md-4 col-lg-4">
                             <div class="module__score">
-                                <h4 class="module__score-title open-sans-lite "> ЧТО ЭТО ЗА БРЕД?</h4> 
+                                <h4 class="module__score-title open-sans-exboltit "> ЧТО ЭТО ЗА БРЕД?</h4> 
                                 <div class="row module__score-box module-connect " id="bad">
                                 </div>
                             </div>
                         </div>
                      </div>
 
-
+<div class="row hidden-sm hidden-xs" id = "carusel_card_all">     
+                    <div class="col-md-1">  
+                      <div class="carusel_control"><div class="icon-left_contol" id="left_control"></div></div>
+                                
+                    </div>
+                     <div class="col-md-10 carusel_card" >
                     <div class="row custom-pd module-connect" id="sobit-box">
-                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3  " id="sob_1" >
-                            <div class="module__card"> <img class="module__card__img" src="assets/images/test3/sob_1.jpg" alt="card img">
-                                <p class="module__card__text open-sans-lite">Законопроект об увеличении штрафов за митинги</p>
+                         
+
+                        
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect  "  id="sob_1"  part="0">
+                            <div class="module__card"> <img class="module__card__img" src="assets/images/test3/sob_1_sm.jpg" alt="card img">
+                                <p class="module__card__text open-sans-regular">Законопроект об увеличении штрафов за митинги</p>
                             </div>
                         </div>
-                        <div class=" col-xs-12 col-sm-6 col-md-3 col-lg-3 " id="sob_2">
-                            <div class="module__card"> <img class="module__card__img" src="assets/images/test3/sob_2.jpg" alt="card img">
-                                <p class="module__card__text open-sans-lite">Законопроект о создании черного списка сайтов (все партии)</p>
+
+                        <div class=" col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_2" part="4">
+                            <div class="module__card"> <img class="module__card__img" src="assets/images/test3/sob_2_sm.jpg" alt="card img">
+                                <p class="module__card__text open-sans-regular">Законопроект о создании черного списка сайтов </p>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" id="sob_3">
-                            <div class="module__card" > <img class="module__card__img" src="assets/images/test3/sob_3.jpg" alt="card img">
-                                <p class="module__card__text open-sans-lite">Антитабачный законопроект</p>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_3" part="0">
+                            <div class="module__card" > <img class="module__card__img" src="assets/images/test3/sob_3_sm.jpg" alt="card img">
+                                <p class="module__card__text open-sans-regular">Антитабачный законопроект</p>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" id="sob_4">
-                            <div class="module__card"> <img class="module__card__img" src="assets/images/test3/sob_4.jpg" alt="card img">
-                                <p class="module__card__text open-sans-lite">Законопроект о капитальном ремонте многоквартирных домов</p>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_4" part="0">
+                            <div class="module__card"> <img class="module__card__img" src="assets/images/test3/sob_4_sm.jpg" alt="card img">
+                                <p class="module__card__text open-sans-regular">Законопроект о капитальном ремонте многоквартирных домов</p>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" id="sob_5">
-                            <div class="module__card"> <img class="module__card__img" src="assets/images/test3/sob_5.jpg" alt="card img">
-                                <p class="module__card__text open-sans-lite">Законопроект об экзамене по русскому языку для мигрантов</p>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_5" part="0">
+                            <div class="module__card"> <img class="module__card__img" src="assets/images/test3/sob_5_sm.jpg" alt="card img">
+                                <p class="module__card__text open-sans-regular">Законопроект об экзамене по русскому языку для мигрантов</p>
                             </div>
                         </div>
-                        <div class="col-xs-12  col-sm-6 col-md-3 col-lg-3" id="sob_6">
-                            <div class="module__card"> <img class="module__card__img" src="assets/images/test3/sob_6.jpg" alt="card img">
-                                <p class="module__card__text open-sans-lite">Законопроект о создании национальной платежной системы</p>
+                        <div class="col-xs-12  col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_6" part="0">
+                            <div class="module__card"> <img class="module__card__img" src="assets/images/test3/sob_6_sm.jpg" alt="card img">
+                                <p class="module__card__text open-sans-regular">Законопроект о создании национальной платежной системы</p>
                             </div>
                         </div>
-                        <div class="col-xs-12  col-sm-6 col-md-3 col-lg-3" id="sob_7">
-                            <div class="module__card"> <img class="module__card__img" src="assets/images/test3/sob_7.jpg" alt="card img">
-                                <p class="module__card__text open-sans-lite">Законопроект о сохранении номера телефона при смене оператора </p>
+                        <div class="col-xs-12  col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_7" part="0">
+                            <div class="module__card"> <img class="module__card__img" src="assets/images/test3/sob_7_sm.jpg" alt="card img">
+                                <p class="module__card__text open-sans-regular">Законопроект о сохранении номера телефона при смене оператора </p>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" id="sob_8">
-                            <div class="module__card"> <img class="module__card__img" src="assets/images/test3/sob_8.jpg" alt="card img">
-                                <p class="module__card__text open-sans-lite">Законопроект о воссоединении Крыма с Россией </p>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_8" part="0">
+                            <div class="module__card"> <img class="module__card__img" src="assets/images/test3/sob_8_sm.jpg" alt="card img">
+                                <p class="module__card__text open-sans-regular">Законопроект о воссоединении Крыма с Россией </p>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" id="sob_9">
-                            <div class="module__card"> <img class="module__card__img" src="assets/images/test3/sob_9.jpg" alt="card img">
-                                <p class="module__card__text open-sans-lite">Законопроект о шуме и детском крике</p>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_9" part="1">
+                            <div class="module__card"> <img class="module__card__img" src="assets/images/test3/sob_9_sm.jpg" alt="card img">
+                                <p class="module__card__text open-sans-regular">Законопроект о шуме и детском крике</p>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" id="sob_10">
-                            <div class="module__card"> <img class="module__card__img" src="assets/images/test3/sob_10.jpg" alt="card img">
-                                <p class="module__card__text open-sans-lite">Законопроект о чистоте русского языка</p>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_10" part="1">
+                            <div class="module__card"> <img class="module__card__img" src="assets/images/test3/sob_10_sm.jpg" alt="card img">
+                                <p class="module__card__text open-sans-regular">Законопроект о чистоте русского языка</p>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" id="sob_11">
-                            <div class="module__card"> <img class="module__card__img" src="assets/images/test3/sob_11.jpg" alt="card img">
-                                <p class="module__card__text open-sans-lite">Законопроект о защите чувств верующих</p>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_11" part="1">
+                            <div class="module__card"> <img class="module__card__img" src="assets/images/test3/sob_11_sm.jpg" alt="card img">
+                                <p class="module__card__text open-sans-regular">Законопроект о защите чувств верующих</p>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" id="sob_12">
-                            <div class="module__card"> <img class="module__card__img" src="assets/images/test3/sob_12.jpg" alt="card img">
-                                <p class="module__card__text open-sans-lite">
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_12" part="2">
+                            <div class="module__card"> <img class="module__card__img" src="assets/images/test3/sob_12_sm.jpg" alt="card img">
+                                <p class="module__card__text open-sans-regular">
                                     Законопроект о  запрете пропаганды гомосексуализма</p>
                             </div>
                         </div>
-                              <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" id="sob_13">
-                            <div class="module__card"> <img class="module__card__img" src="assets/images/test3/sob_13.jpg" alt="card img">
-                                <p class="module__card__text open-sans-lite">
+                              <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_13" part="2">
+                            <div class="module__card"> <img class="module__card__img" src="assets/images/test3/sob_13_sm.jpg" alt="card img">
+                                <p class="module__card__text open-sans-regular">
                                    Законопроект о запрете «враждебных фирм»</p>
                             </div>
                         </div>
                     </div>
+                       </div>
+                    <div class="col-md-1">
+                        <div class="carusel_control"><div class="icon-rithg_contol" id="right_control"></div></div>
+
+
+                    </div>
+
+</div>
+           
                     <div class="row">
                         <div class="col-xs-12  center-block text-center mt-30">
                             <a id="solution" class="btn_solution open-sans-exbolt hidden">Принять решение</a>
                         </div>
                     </div>
-      
 
+
+<!-- заготовка для моб версии  -->
+     <div class="row custom-pd  hidden-md hidden-lg  " id="sobit-box-mob">
+                       <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect  "  id="sob_1-mob"  part="0">
+                            <div class="module__card"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_1.jpg" alt="card img">
+                                <p class="module__card__text open-sans-regular">Законопроект об увеличении штрафов за митинги</p>
+                            </div>
+                        </div>
+
+                        <div class=" col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_2-mob" part="4">
+                            <div class="module__card"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_2.jpg" alt="card img">
+                                <p class="module__card__text open-sans-regular">Законопроект о создании черного списка сайтов </p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_3-mob" part="0">
+                            <div class="module__card" > <img class="module__card__img card_mob_img" src="assets/images/test3/sob_3.jpg" alt="card img">
+                                <p class="module__card__text open-sans-regular">Антитабачный законопроект</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_4-mob" part="0">
+                            <div class="module__card"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_4.jpg" alt="card img">
+                                <p class="module__card__text open-sans-regular">Законопроект о капитальном ремонте многоквартирных домов</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_5-mob" part="0">
+                            <div class="module__card"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_5.jpg" alt="card img">
+                                <p class="module__card__text open-sans-regular">Законопроект об экзамене по русскому языку для мигрантов</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12  col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_6-mob" part="0">
+                            <div class="module__card"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_6.jpg" alt="card img">
+                                <p class="module__card__text open-sans-regular">Законопроект о создании национальной платежной системы</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12  col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_7-mob" part="0">
+                            <div class="module__card"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_7.jpg" alt="card img">
+                                <p class="module__card__text open-sans-regular">Законопроект о сохранении номера телефона при смене оператора </p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_8-mob" part="0">
+                            <div class="module__card"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_8.jpg" alt="card img">
+                                <p class="module__card__text open-sans-regular">Законопроект о воссоединении Крыма с Россией </p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_9-mob" part="1">
+                            <div class="module__card"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_9.jpg" alt="card img">
+                                <p class="module__card__text open-sans-regular">Законопроект о шуме и детском крике</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_10-mob" part="1">
+                            <div class="module__card"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_10.jpg" alt="card img">
+                                <p class="module__card__text open-sans-regular">Законопроект о чистоте русского языка</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_11-mob" part="1">
+                            <div class="module__card"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_11.jpg" alt="card img">
+                                <p class="module__card__text open-sans-regular">Законопроект о защите чувств верующих</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_12-mob" part="2">
+                            <div class="module__card"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_12.jpg" alt="card img">
+                                <p class="module__card__text open-sans-regular">
+                                    Законопроект о  запрете пропаганды гомосексуализма</p>
+                            </div>
+                        </div>
+                              <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_13-mob" part="2">
+                            <div class="module__card"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_13.jpg" alt="card img">
+                                <p class="module__card__text open-sans-regular">
+                                   Законопроект о запрете «враждебных фирм»</p>
+                            </div>
+                        </div>
+</div> 
+ 
 
 
 
@@ -194,7 +284,9 @@
                         </p>
                         <a  id="btn_next" class="btn_on_help_scr open-sans-exbolt">далее</a>
                     </div>
-                    <div class="hover_scr_on_mob-left " id="part_scr">
+                    <div class="hover_scr_on_mob-left " id="part_scr" style="
+    z-index: 9999;
+">
                         <p class="hover_scr_on_mob__text open-sans-lite">выбери одну из оценок
                         </p>
                         <div class="hover_scr_on_mob-left__partia open-sans-exbolt" id="bnt_excell">
@@ -208,11 +300,20 @@
                         </div>
                         <a  id="btn_next-part" class="btn_on_help_scr open-sans-exbolt">назад</a>
                     </div>
-                    <div class="hover_scr_on_mob-left " id="part_scr_solutio">
-                        <div class="module__score--part open-sans-exboltit " id="ed_ros_score_mob"></div>
-                        <div class="module__score--part open-sans-exboltit " id="ldpr_score_mob"></div>
-                        <div class="module__score--part open-sans-exboltit " id="kprf_score_mob"></div>
-                        <div class="module__score--part open-sans-exboltit " id="sp_ros_score_mob"></div>  
+                    <div class="hover_scr_on_mob-left " id="part_scr_solutio" >
+
+                      
+                        
+                      
+                       
+                         <div class="module__score--part open-sans-exboltit " >Единая Россия</div>
+                        <div class="module__score--part open-sans-exboltit " id="ed_ros_score_mob">0</div>
+                        <div class="module__score--part open-sans-exboltit " >ЛДПР</div>
+                        <div class="module__score--part open-sans-exboltit " id="ldpr_score_mob">0</div>
+                         <div class="module__score--part open-sans-exboltit " >КПРФ</div>
+                        <div class="module__score--part open-sans-exboltit " id="kprf_score_mob">0</div>
+                         <div class="module__score--part open-sans-exboltit " >Справедливая Россия</div>  
+                        <div class="module__score--part open-sans-exboltit " id="sp_ros_score_mob">0</div>  
                         <a  id="solut_mob" class="btn_on_help_scr open-sans-exbolt mt-10">принять решение</a>
                         <a  id="btn_back_solution" class="btn_on_help_scr open-sans-exbolt mt-10">назад</a>
                     </div>
