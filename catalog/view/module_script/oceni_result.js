@@ -151,14 +151,26 @@ $(function() {
         if(addScore > 0){
             $('#module__part__' + e +' .module__part__logo').transition({opacity:0},100,function(){
                 $('#module__part__' + e +' .module__part__gif__pos').fadeIn();
+                $('#module__part__' + e +' .module__part__gif__pos').delay(500).fadeOut(300,function(){
+                    $('#module__part__' + e +' .module__part__logo').transition({opacity:1},100);
+                });
+                
             });
-       } else if(addScore == 0){
+       } 
+       if(addScore == 0){
             $('#module__part__' + e +' .module__part__logo').transition({opacity:0},100,function(){
                 $('#module__part__' + e +' .module__part__gif__non').fadeIn();
+                $('#module__part__' + e +' .module__part__gif__non').delay(500).fadeOut(300,function(){
+                    $('#module__part__' + e +' .module__part__logo').transition({opacity:1},100);
+                });
             });
-       } else if(addScore < 0){
+       } 
+       if(addScore < 0){
             $('#module__part__' + e +' .module__part__logo').transition({opacity:0},100,function(){
                 $('#module__part__' + e +' .module__part__gif__neg').fadeIn();
+                $('#module__part__' + e +' .module__part__gif__neg').delay(500).fadeOut(300,function(){
+                    $('#module__part__' + e +' .module__part__logo').transition({opacity:1},100);
+                });
             });
         }
    }

@@ -80,13 +80,13 @@
                         <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 text-center" id="module__part__spros">
                               <img class="module__part__logo" src="image/catalog/logopart/sprav_ros.png" alt="">
                               <div class="module__part__gif__pos">
-                                    <img src="assets/images/logopart/act_0.gif" alt="" class="">
+                                    <img src="image/catalog/logopart/act_0.gif" alt="" class="">
                                 </div>
                                 <div class="module__part__gif__neg">
-                                    <img src="assets/images/logopart/bred_0.gif" alt="" class="">
+                                    <img src="image/catalog/logopart/bred_0.gif" alt="" class="">
                                 </div>
                                 <div class="module__part__gif__non">
-                                    <img src="assets/images/logopart/sr.gif" alt="" class="">
+                                    <img src="image/catalog/logopart/sr.gif" alt="" class="">
                                 </div>
                               <div class="module__score--part open-sans-exboltit " id="sp_ros_score">0</div>
                         </div>
