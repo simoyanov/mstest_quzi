@@ -66,7 +66,7 @@ var path = {
                  // 'bower_components/pushy/js/pushy.js',
                  //'bower_components/jquery-ui/jquery-ui.js', 
                  'bower_components/jquery.transit/jquery.transit.js', 
-
+                 'bower_components/slick-carousel/slick/slick.js',
                  'src/js/hoverable_and_touchable.js',
                  'src/js/_triangles.js',
                  'src/js/_visual.js',

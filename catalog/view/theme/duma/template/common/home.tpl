@@ -24,6 +24,8 @@
         <div class="center-block text-center col-xs-12">
             <h1 class="module__title open-sans-exboltit ">дамы и господа!</h1>
             
+               <span class="module__subtitle open-sans-lite">скоро начнутся голодные игры в думу 2016</span><br><br>
+            
             <span class="module__subtitle open-sans-lite">Время разобраться, кто депутатил Москвой последние 5 лет.</span><br><br>
             <span class="module__subtitle open-sans-lite">Ведь до принятия нового решения осталось совсем немного.<br>Пора узнать о Думе больше!
 
