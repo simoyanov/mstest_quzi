@@ -229,3 +229,13 @@ cursor: pointer;
 .card_mob{
     min-height: 225px;
 }
+
+.module__part__gif__pos,.module__part__gif__neg,.module__part__gif__non{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    display: none;
+    
+}
