@@ -49,7 +49,7 @@ var conteiner_carusel_card= $('.slick-track');
 
 var caruselcardId = $('#carusel_card_all');
 
-
+var numberClickControl = 0 ;
 
 
 
@@ -117,6 +117,15 @@ $(function() {
              reCalcScore();
         }
     });
+    
+    
+
+    console.log("boxid " + boxid.sortable("toArray"));
+  
+
+
+
+
 
     function delClassFromSlider(idnow) {
         console.log(idnow);
@@ -309,7 +318,18 @@ $(function() {
              var scorenow = idScorepart.html() * 1 ;
             idScorepart.html(scorenow+Score);
         }  
-    
+  
+
+  if (mobile || tablet === true) {
+    $('#carusel_card_all').addClass('hidden');
+}
+   if (mobile || tablet === true) {
+    $('#sobit-box-mob').removeClass(' hidden-md ');
+    $('#sobit-box-mob').removeClass('hidden-lg');
+}  
+   
+
+   
 
 
 if (mobile || tablet === true) {

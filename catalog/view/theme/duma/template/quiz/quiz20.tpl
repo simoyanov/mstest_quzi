@@ -178,69 +178,69 @@
 <!-- заготовка для моб версии  -->
      <div class="row custom-pd  hidden-md hidden-lg  " id="sobit-box-mob">
                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect  "  id="sob_1-mob"  part="0">
-                            <div class="module__card"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_1.jpg" alt="card img">
+                            <div class="module__card card_mob"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_1.jpg" alt="card img">
                                 <p class="module__card__text open-sans-regular">Законопроект об увеличении штрафов за митинги</p>
                             </div>
                         </div>
 
                         <div class=" col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_2-mob" part="4">
-                            <div class="module__card"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_2.jpg" alt="card img">
+                            <div class="module__card card_mob"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_2.jpg" alt="card img">
                                 <p class="module__card__text open-sans-regular">Законопроект о создании черного списка сайтов </p>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_3-mob" part="0">
-                            <div class="module__card" > <img class="module__card__img card_mob_img" src="assets/images/test3/sob_3.jpg" alt="card img">
+                            <div class="module__card card_mob" > <img class="module__card__img card_mob_img" src="assets/images/test3/sob_3.jpg" alt="card img">
                                 <p class="module__card__text open-sans-regular">Антитабачный законопроект</p>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_4-mob" part="0">
-                            <div class="module__card"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_4.jpg" alt="card img">
+                            <div class="module__card card_mob"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_4.jpg" alt="card img">
                                 <p class="module__card__text open-sans-regular">Законопроект о капитальном ремонте многоквартирных домов</p>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_5-mob" part="0">
-                            <div class="module__card"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_5.jpg" alt="card img">
+                            <div class="module__card card_mob"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_5.jpg" alt="card img">
                                 <p class="module__card__text open-sans-regular">Законопроект об экзамене по русскому языку для мигрантов</p>
                             </div>
                         </div>
                         <div class="col-xs-12  col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_6-mob" part="0">
-                            <div class="module__card"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_6.jpg" alt="card img">
+                            <div class="module__card card_mob"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_6.jpg" alt="card img">
                                 <p class="module__card__text open-sans-regular">Законопроект о создании национальной платежной системы</p>
                             </div>
                         </div>
                         <div class="col-xs-12  col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_7-mob" part="0">
-                            <div class="module__card"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_7.jpg" alt="card img">
+                            <div class="module__card card_mob"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_7.jpg" alt="card img">
                                 <p class="module__card__text open-sans-regular">Законопроект о сохранении номера телефона при смене оператора </p>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_8-mob" part="0">
-                            <div class="module__card"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_8.jpg" alt="card img">
+                            <div class="module__card card_mob"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_8.jpg" alt="card img">
                                 <p class="module__card__text open-sans-regular">Законопроект о воссоединении Крыма с Россией </p>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_9-mob" part="1">
-                            <div class="module__card"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_9.jpg" alt="card img">
+                            <div class="module__card card_mob"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_9.jpg" alt="card img">
                                 <p class="module__card__text open-sans-regular">Законопроект о шуме и детском крике</p>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_10-mob" part="1">
-                            <div class="module__card"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_10.jpg" alt="card img">
+                            <div class="module__card card_mob"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_10.jpg" alt="card img">
                                 <p class="module__card__text open-sans-regular">Законопроект о чистоте русского языка</p>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_11-mob" part="1">
-                            <div class="module__card"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_11.jpg" alt="card img">
+                            <div class="module__card card_mob"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_11.jpg" alt="card img">
                                 <p class="module__card__text open-sans-regular">Законопроект о защите чувств верующих</p>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_12-mob" part="2">
-                            <div class="module__card"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_12.jpg" alt="card img">
+                            <div class="module__card card_mob"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_12.jpg" alt="card img">
                                 <p class="module__card__text open-sans-regular">
                                     Законопроект о  запрете пропаганды гомосексуализма</p>
                             </div>
                         </div>
                               <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 module-connect" id="sob_13-mob" part="2">
-                            <div class="module__card"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_13.jpg" alt="card img">
+                            <div class="module__card card_mob"> <img class="module__card__img card_mob_img" src="assets/images/test3/sob_13.jpg" alt="card img">
                                 <p class="module__card__text open-sans-regular">
                                    Законопроект о запрете «враждебных фирм»</p>
                             </div>
