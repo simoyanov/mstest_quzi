@@ -15,7 +15,8 @@
   "dependencies": {
     "normalize.css": "*",
     "jquery": "2.*",
-    "modernizr": "~2.8.3"
+    "modernizr": "~2.8.3",
+    "slick-carousel": "~1.5.9"
   },
   "devDependencies": {
     "bootstrap-sass": "~3.3.6",

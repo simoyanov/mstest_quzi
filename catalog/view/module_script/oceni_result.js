@@ -144,7 +144,24 @@ $(function() {
 
     }
     
-   
+   function changeLogoPart(e,addScore){
+       $('#module__part__' + e +' .module__part__gif__pos').fadeOut(0);
+        $('#module__part__' + e +' .module__part__gif__non').fadeOut(0);
+        $('#module__part__' + e +' .module__part__gif__neg').fadeOut(0);
+        if(addScore > 0){
+            $('#module__part__' + e +' .module__part__logo').transition({opacity:0},100,function(){
+                $('#module__part__' + e +' .module__part__gif__pos').fadeIn();
+            });
+       } else if(addScore == 0){
+            $('#module__part__' + e +' .module__part__logo').transition({opacity:0},100,function(){
+                $('#module__part__' + e +' .module__part__gif__non').fadeIn();
+            });
+       } else if(addScore < 0){
+            $('#module__part__' + e +' .module__part__logo').transition({opacity:0},100,function(){
+                $('#module__part__' + e +' .module__part__gif__neg').fadeIn();
+            });
+        }
+   }
 
     function addClassToElInBox(part) {
         var list = $(part).sortable("toArray");
@@ -263,15 +280,15 @@ $(function() {
         var nowAddCardid = document.getElementById(id_sob);
        console.log("ishem v masive" );
 
-     if (excelMas.indexOf(id_sob )>= 0 ) {
-        addScore = excellentScore; 
-     }
-       if (wellMas.indexOf(id_sob )>= 0 ) {
-        addScore = wellScore; 
-     }
-       if (badMas.indexOf(id_sob )>= 0 ) {
-        addScore = badScore; 
-     }
+         if (excelMas.indexOf(id_sob )>= 0 ) {
+            addScore = excellentScore; 
+         }
+           if (wellMas.indexOf(id_sob )>= 0 ) {
+            addScore = wellScore; 
+         }
+           if (badMas.indexOf(id_sob )>= 0 ) {
+            addScore = badScore; 
+         }
          console.log("bydet dobavleno");
          console.log(addScore);
           
@@ -279,22 +296,34 @@ $(function() {
            if ($(nowAddCardid).attr("part") == 0 ) {
                 console.log($(nowAddCardid).attr("part")+ "ed ros ");
                 addScoretoPart( part_ed_ros_score, addScore  );
+               changeLogoPart('edros',addScore);
+               console.log(addScore);
            }
            if ($(nowAddCardid).attr("part") == 1 ) {
                 console.log($(nowAddCardid).attr("part") + " kprf ldpr ");
                 addScoretoPart(  part_ldpr_score , addScore  );
+               changeLogoPart('ldpr',addScore);
                 addScoretoPart(  part_kprf_score , addScore  );
+               changeLogoPart('kprf',addScore);
+               console.log(addScore);
            }
             if ($(nowAddCardid).attr("part") == 2 ) {
                 console.log($(nowAddCardid).attr("part") + " sp ros");
                 addScoretoPart( part_sp_ros_score , addScore  );
+                changeLogoPart('spros',addScore);
+                console.log(addScore);
            }
            if ($(nowAddCardid).attr("part") == 4 ) {
                 console.log($(nowAddCardid).attr("part") + " all");
                 addScoretoPart( part_ed_ros_score, addScore  );
+               changeLogoPart('edros',addScore);
                 addScoretoPart( part_ldpr_score , addScore  );
+               changeLogoPart('ldpr',addScore);
                 addScoretoPart( part_kprf_score , addScore  );
+               changeLogoPart('kprf',addScore);
                 addScoretoPart( part_sp_ros_score, addScore  );
+               changeLogoPart('spros',addScore);
+               console.log(addScore);
            }
             
 

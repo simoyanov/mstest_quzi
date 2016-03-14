@@ -33,25 +33,61 @@
          
 
            <div class="row custom-pd pt-20 " >
-                        <div class="col-xs-6 col-sm-3 col-md-2 col-md-offset-2 col-lg-2 col-lg-offset-2 text-center">
+                        <div class="col-xs-6 col-sm-3 col-md-2 col-md-offset-2 col-lg-2 col-lg-offset-2 text-center" id="module__part__edros">
                             
-                                <img class="module__part__logo" src="assets/images/logopart/edin_ros.png" alt="" >
+                                <img class="module__part__logo" src="image/catalog/logopart/edin_ros.png" alt="" >
+                                <div class="module__part__gif__pos">
+                                    <img src="image/catalog/logopart/act_0.gif" alt="" class="">
+                                </div>
+                                <div class="module__part__gif__neg">
+                                    <img src="image/catalog/logopart/bred_0.gif" alt="" class="">
+                                </div>
+                                <div class="module__part__gif__non">
+                                    <img src="image/catalog/logopart/er.gif" alt="" class="">
+                                </div>
                                 <div class="module__score--part open-sans-exboltit " id="ed_ros_score">0</div>
                             
                         </div>
-                        <div class=" col-xs-6 col-sm-3 col-md-2 col-lg-2 text-center">
+                        <div class=" col-xs-6 col-sm-3 col-md-2 col-lg-2 text-center" id="module__part__ldpr">
                             
-                                <img class="module__part__logo" src="assets/images/logopart/ldpr.png" alt="">
+                                <img class="module__part__logo" src="image/catalog/logopart/ldpr.png" alt="">
+                                <div class="module__part__gif__pos">
+                                    <img src="image/catalog/logopart/act_0.gif" alt="" class="">
+                                </div>
+                                <div class="module__part__gif__neg">
+                                    <img src="image/catalog/logopart/bred_0.gif" alt="" class="">
+                                </div>
+                                <div class="module__part__gif__non">
+                                    <img src="image/catalog/logopart/ldpr.gif" alt="" class="">
+                                </div>
                                 <div class="module__score--part open-sans-exboltit " id="ldpr_score">0</div>
 
                         </div>
-                        <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 text-center">
-                             <img class="module__part__logo" src="assets/images/logopart/kprf.png" alt=""> 
+                        <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 text-center" id="module__part__kprf">
+                             <img class="module__part__logo" src="image/catalog/logopart/kprf.png" alt="">
+                             <div class="module__part__gif__pos">
+                                    <img src="image/catalog/logopart/act_0.gif" alt="" class="">
+                                </div>
+                                <div class="module__part__gif__neg">
+                                    <img src="image/catalog/logopart/bred_0.gif" alt="" class="">
+                                </div>
+                                <div class="module__part__gif__non">
+                                    <img src="image/catalog/logopart/kprf.gif" alt="" class="">
+                                </div> 
                              <div class="module__score--part open-sans-exboltit " id="kprf_score">0</div>
                         </div>
 
-                        <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 text-center">
-                              <img class="module__part__logo" src="assets/images/logopart/sprav_ros.png" alt="">
+                        <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2 text-center" id="module__part__spros">
+                              <img class="module__part__logo" src="image/catalog/logopart/sprav_ros.png" alt="">
+                              <div class="module__part__gif__pos">
+                                    <img src="assets/images/logopart/act_0.gif" alt="" class="">
+                                </div>
+                                <div class="module__part__gif__neg">
+                                    <img src="assets/images/logopart/bred_0.gif" alt="" class="">
+                                </div>
+                                <div class="module__part__gif__non">
+                                    <img src="assets/images/logopart/sr.gif" alt="" class="">
+                                </div>
                               <div class="module__score--part open-sans-exboltit " id="sp_ros_score">0</div>
                         </div>
                         
